@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-topics: Accessing REDCap; Logging in; Navigation
+parent: Introduction
 layout: default
 title: Logging in
 ---

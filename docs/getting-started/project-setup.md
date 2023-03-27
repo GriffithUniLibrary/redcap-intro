@@ -1,7 +1,8 @@
 ---
-nav_order: 1
-title: Introduction
+title: Setting up a project
 layout: default
+parent: Introduction
+nav_order: 3
 ---
 
 ## Table of contents

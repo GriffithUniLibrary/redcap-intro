@@ -29,12 +29,9 @@ callouts:
   success:
     title: Success
     color: green
-  error:
-    title: More
-    color: yellow
   highlight:
     title: Highlight
-    color: grey-lt
+    color: yellow
   note:
     title: note
     color: purple
