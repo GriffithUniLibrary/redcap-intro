@@ -10,11 +10,8 @@ layout: default
 1. TOC
 {:toc}
 
-{% capture basics %}
-**Note:** The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
-{% endcapture %}
-
-{% include alert.html text=basics align="left" color="warning" %}
+The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
+{:. .note }
 
 ## Topic and aims
 
