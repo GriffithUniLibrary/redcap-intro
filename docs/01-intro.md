@@ -2,8 +2,13 @@
 nav_order: 1
 title: Introduction
 layout: default
-topics: Workshop info; Prerequisites; Survey design
 ---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 {% capture basics %}
 **Note:** The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
