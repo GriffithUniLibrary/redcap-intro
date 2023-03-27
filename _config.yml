@@ -10,3 +10,11 @@ aux_links:
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/gu_logo.png"
 
+# Aux links for the upper right navigation
+aux_links:
+  "GU Library Workshops":
+    - "//griffithunilibrary.github.io"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
