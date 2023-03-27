@@ -1,6 +1,7 @@
 ---
-title: This is a test
 layout: default
+title: This is a test
+nav_order: 2
 ---
 
 # Here is a large heading. 
