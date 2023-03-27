@@ -32,6 +32,6 @@ callouts:
   error:
     title: Error
     color: yellow
-  highlight
+  highlight:
     title: Highlight
     color: grey-lt
