@@ -22,7 +22,7 @@ aux_links_new_tab: false
 callouts:
   warning:
     title: Warning
-    color: yellow
+    color: red
   info:
     title: Info
     color: blue
@@ -30,7 +30,7 @@ callouts:
     title: Success
     color: green
   error:
-    title: Error
+    title: More
     color: yellow
   highlight:
     title: Highlight
