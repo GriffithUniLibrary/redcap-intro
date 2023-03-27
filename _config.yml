@@ -18,3 +18,20 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
 
+# Define callout colours and titles
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  info:
+    title: Info
+    color: blue
+  success:
+    title: Success
+    color: green
+  error:
+    title: Error
+    color: yellow
+  highlight
+    title: Highlight
+    color: grey-lt
