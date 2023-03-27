@@ -35,3 +35,6 @@ callouts:
   highlight:
     title: Highlight
     color: grey-lt
+  note:
+    title: note
+    color: purple
