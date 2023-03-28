@@ -1,10 +1,11 @@
 ---
-nav_order: 6
+nav_order: 5
 title: Calculated fields
-topics: Calculating age; caculating BMI
 layout: default
-description: A calculated field can use previously submitted answers to calculate and display a value.
+parent: Instruments, forms and surveys
 ---
+
+> A calculated field can use previously submitted answers to calculate and display a value.
 
 You can use calculated fields to determine values based on the values of previous fields. Here we will determine the participant’s age and body mass index (BMI) based on their date of birth and their height and weight.
 

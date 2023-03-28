@@ -1,10 +1,11 @@
 ---
-nav_order: 3
-topics: Projects; instruments; forms; surveys
-title: Creating a project
+nav_order: 1
+title: Instruments, forms and surveys
 layout: default
-description: Before you can create forms and surveys in REDCap, you need to create a project. 
+has_children: true
 ---
+
+> Before you can create forms and surveys in REDCap, you need to create a project.
 
 ## The New Project screen
 

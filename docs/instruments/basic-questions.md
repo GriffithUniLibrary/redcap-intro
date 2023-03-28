@@ -1,7 +1,8 @@
 ---
-nav_order: 4
+nav_order: 2
 title: Basic questions
 layout: default
+parent: Instruments, forms and surveys
 ---
 
 Now we’ll add demographic questions to the first instrument.
