@@ -42,4 +42,3 @@ The `My Projects` screen shows any projects you are working on or have access to
 
 ### My Projects
 
-Y
