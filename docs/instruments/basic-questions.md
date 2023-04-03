@@ -24,7 +24,6 @@ In REDCap, the `text box` question type can be used in several ways: to capture 
 7. In the `Identifier?` Field, select “Yes”. (Identifiable information can be flagged to restrict it from export.)
 8. Click `Save`.
 9. Repeat the process to add the field Given Name (name_given)
-{% endcapture %}
 
 {% include accordion.html title1="Activity: Add a basic text field" text1=buildform open=true %}
 
