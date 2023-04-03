@@ -5,13 +5,15 @@ layout: default
 parent: Instruments, forms and surveys
 ---
 
-Now we’ll add demographic questions to the first instrument.
+# Basic question types
 
-## Basic text fields
+We will use the first instrument to try out some basic question types by adding some demographic questions.
 
-In REDCap, the `text` question type can be used in several ways: to capture short and long written responses, but also to capture information like numbers and dates. Here we will just capture our participant's name.
+## Text box
 
-{% capture buildform %}
+In REDCap, the `text box` question type can be used in several ways: to capture short and long written responses, but also to capture information like numbers and dates. Here we will just capture our participant's name.
+
+### Add a basic text field
 
 1. Click on `My First Instrument`
 2. Click `Add Field`
@@ -26,22 +28,27 @@ In REDCap, the `text` question type can be used in several ways: to capture shor
 
 {% include accordion.html title1="Activity: Add a basic text field" text1=buildform open=true %}
 
-## Multiple choice fields
+## Multiple choice
 
-Multiple choice fields are of two kinds. Radio buttons and drop down lists only allow the participant to select a single option from a list. Checkboxes allow participants to select any number of items from a list.
+Multiple choice fields are of two kinds:
 
-{% capture radiobuttons %}
+- `Radio buttons` and `drop down lists` only allow the participant to select a single option from a list. 
+- `Checkboxes` allow participants to select any number of items from a list.
 
-1. Click `Add field`.
+### Add a radio button question
+
+1. Click `Add field`
 2. Choose `Multiple choice - Radio buttons` from the drop-down list.
 3. Type *Gender* in the `Field` Label and *gender* in the `Variable Name`.
 4. Add the following options: *Male, Female, Intersex, Unspecified*.
 
-{% include alert.html text="Note here that the ‘raw value’, which appears before the column, is the value that gets recorded to your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description." color="info" %}
+{:. .note-title}
+> About raw values
+>
+> The ‘raw value’, which appears before the column, is the value that gets recorded to your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description.
 
-{% endcapture %}
+### Add a checkbox question
 
-{% capture checkboxes %}
 3. Click `Add field`.
 4. Choose *Checkboxes (Multiple Answers)* for the `Field Type`.
 5. In the `Field Label`, type *Do you suffer from any of the following conditions?*.
@@ -55,19 +62,16 @@ Multiple choice fields are of two kinds. Radio buttons and drop down lists only 
 
 8. In the `Required` field, click *Yes*.
 
-{% include alert.html text="REDCap automatically adds numeric Raw Values for each choice. Raw values are what gets saved to the database when a participant chooses a value. You can change the raw values to something else if you want." color="info" %}
-{% endcapture %}
-
-{% include accordion.html title1="Activity: Add a radio button question" title2="Activity: Add a checkbox question" text1=radiobuttons text2=checkboxes open=true %}
+REDCap automatically adds numeric Raw Values for each choice. Raw values are what gets saved to the database when a participant chooses a value. You can change the raw values to something else if you want.
+{:. .note }
 
 ___
 
-{% capture identifiers %}
+## Dealing with identifiable information
+
 REDCap allows you to automatically remove personally identifiable information from reports and exported data. Any field can be marked as an identifier.
 
 REDCap uses the US HIPAA model to list what are likely to be personally identifying data. You can look it up using the REDCap help. It is a starting point and it likely to be similar to the Australian model.
 
-{% include alert.html text="If you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research))." color="warning" %}
-
-{% endcapture %}
-{% include card.html header="Dealing with identifiable information" text=identifiers %}
+If you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research)).
+{:. .error }

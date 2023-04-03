@@ -64,11 +64,6 @@ Your **design** phase should have included:
 
 See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
 
-{% endcapture %}
-
-{% include card.html header="<i class='fa-solid fa-triangle-exclamation'></i> Before we get started" text=beforewebegin %}
-
-
 ----
 
 

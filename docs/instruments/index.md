@@ -19,12 +19,8 @@ You can start with an empty project, or use a template provided by REDCap. Templ
 
 Before you start building your project, it will be helpful to understand the terms that REDCap uses. The first and most important distinction is between `instruments`, `forms` and `surveys`.
 
-{% capture instrumentinfo %}
-
 REDCap considers anything that can capture data to be an `instrument`. Data can then be added to an instrument using either `forms` or `surveys`.
-
-{% endcapture %}
-{% include alert.html text=instrumentinfo color="info" %}
+{:. .info }
 
 {% include figure.html img="instruments-forms-surveys.png" alt="Instruments, forms and surveys." width="75%" %}
 
@@ -50,21 +46,15 @@ It can be helpful to break your data collection into separate instruments. For e
 
 Here, we're going to create two instruments: one for *Demographic questions*, and one to collect *Baseline Health Data*.
 
-{% include alert.html text="Click on an activity title to expand it" color="info" %}
-
-{% capture renameinstrument %}
+### Rename an instrument
 
 1. Under `Project Home and Design`, click `Designer`
 2. Under `Data Collection Instruments`, you'll see one instrument in the list, called *My First Instrument*.
 3. Click on `Choose actions` under `Instrument actions` and select `Rename`.
 4. Name the instrument *Demographic data*.
-{% endcapture %}
 
-{% capture baseline %}
+### Create a new instrument
 
 1. Click `Create` a new instrument from scratch.
 2. Click `Add instrument here`
 3. Name your instrument *Baseline Health Data*.
-{% endcapture %}
-
-{% include accordion.html title1="Activity: Rename your first instrument" text1=renameinstrument title2="Activity: Create a Baseline health data instrument" text2=baseline open=true %}
