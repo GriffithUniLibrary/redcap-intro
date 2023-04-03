@@ -3,12 +3,15 @@ title: Home
 layout: home
 ---
 
-The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
-{:. .note }
+# REDCap @ Griffith
+{: .no_toc }
 
 ## Topic and aims
 
-Introduction to REDCap (REsearch Data Capture) at Griffith
+This resource provides an introduction to using the REDCap (REsearch Data Capture) tool at Griffith University. It may be used on its own or in conjunction with the Griffith RED workshop 'Introduction to REDcap@Griffith'.
+
+The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. It is not intended to act as comprehensive documentation. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
+{:. .note }
 
 ## Audience
 
@@ -27,31 +30,23 @@ This workshop is aimed at Griffith researchers and academics in the field of bio
 | Locate REDCap support resources |
 {:.table}
 
-## Prerequisites
+## Required software
 
-### Required software
+To successfully complete the activities in this resource you will need: 
 
-| You will need the following software to successfully complete this workshop: |
-| -----|
-| A modern browser  |
-| Access to the Griffith REDCap server |
-{:.table}
+ - A modern browser
+ - Access to the Internet
 
-### Assumed knowledge
+## Assumed knowledge
 
-| It is assumed that you have the following level of understanding: |
-| -----|
-| Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.  |
-{:.table}
+It is assumed that you have the following level of understanding:
 
-{% capture beforewebegin %}
+Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
 
-{% capture planningalert %}
+## Plan your project on paper first!
 
 A significant amount of careful planning and design needs to happen before you start building your survey. The stronger your preparation, the more credible your methodology will be.
-
-{% endcapture %}
-{% include alert.html text=planningalert color="warning" %}
+{:. .warning }
 
 Your **preparation** phase should have included: 
 

@@ -5,78 +5,33 @@ parent: Introduction
 nav_order: 3
 ---
 
+# Setting up a project
+{: .no_toc }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
-{:. .note }
+## Basic details
 
-## Topic and aims
+### Project title
 
-Introduction to REDCap (REsearch Data Capture) at Griffith
+Give the project a title. It won't be visible to your participants so you can call it what you want. 
 
-## Audience
+### Project's purpose
 
-This workshop is aimed at Griffith researchers and academics in the field of biostatistics, or anyone seeking to get up and running with the REDCap data collection tool.
+Selecting `Research` allows you to provide the names of the primary investigators. This information is not used by the university and has no effect on the functionality of your project. For now, just choose `Practice / Just for fun`.
 
-## Learning objectives
+### Project folders
 
-| Once you have completed this workshop you should be able to: |
-| -----|
-| Log in to the Griffith REDCap instance |
-| Create a new project |
-| Create a data collection instrument |
-| Create basic questions and apply validation |
-| Control question visibility using branching logic |
-| Publish and distribute your project |
-| Locate REDCap support resources |
-{:.table}
+You can use this to organise your projects if you are working with several. You can ignore it for now.
 
-## Prerequisites
+### Project notes
 
-### Required software
+Optional. Ignore for now.
 
-| You will need the following software to successfully complete this workshop: |
-| -----|
-| A modern browser  |
-| Access to the Griffith REDCap server |
-{:.table}
+### Project creation options
 
-### Assumed knowledge
-
-| It is assumed that you have the following level of understanding: |
-| -----|
-| Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.  |
-{:.table}
-
-{% capture beforewebegin %}
-
-{% capture planningalert %}
-
-A significant amount of careful planning and design needs to happen before you start building your survey. The stronger your preparation, the more credible your methodology will be.
-
-{% endcapture %}
-{% include alert.html text=planningalert color="warning" %}
-
-Your **preparation** phase should have included:
-
-- Research problem development
-- Literature review
-- Concept mapping and identification of measures
-- Survey cohort identification
-
-Your **design** phase should have included:
-
-- Clarifying the _answers_ you want (not the questions)
-- Question design
-- Question validation
-- Sampling design
-
-See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
-
-{% endcapture %}
-
-{% include card.html header="<i class='fa-solid fa-triangle-exclamation'></i> Before we get started" text=beforewebegin %}
+You can use a pre-created template to start a new project quickly. Since we are focused on getting to know REDCap, we will start with a blank project.
