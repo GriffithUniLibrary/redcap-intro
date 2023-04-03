@@ -39,7 +39,8 @@ Click the red button in the question menu.
 4. Select _Asthma_ and click `Save`.
 5. Note that the _Asthma_ option now has `[End Survey]` alongside it in red.
 
-{% include alert.html text="Note that Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions." color="info" %}
+Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions.
+{:. .note }
 
 {% endcapture %}
 {% include card.html header="Create a Stop Action" text=stopaction %}
@@ -48,7 +49,8 @@ Click the red button in the question menu.
 
 Action tags can help format or adapt entries automatically. For example they can limit the number of characters a participant enters in a field, or prevent them from selecting more than a certain number of options.
 
-{% include alert.html text="Here we are going to create a ‘None of the Above’ checkbox option, that automatically unchecks all the other boxes, and unchecks itself if any other box is ticked." color="primary" %}
+Here we are going to create a ‘None of the Above’ checkbox option, that automatically unchecks all the other boxes, and unchecks itself if any other box is ticked.
+{:. .info }
 
 {% capture actiontag %}
 
@@ -61,7 +63,8 @@ Action tags can help format or adapt entries automatically. For example they can
 {% endcapture %}
 {% include card.html header="Add ‘None of the Above’ to the Existing Conditions’ question" text=actiontag %}
 
-{% include alert.html text="Now we will add an action tag that causes the calculated field we created before to be hidden from the participant view." color="primary" %}
+Now we will add an action tag that causes the calculated field we created before to be hidden from the participant view.
+{:. .info }
 
 {% capture actiontaghide %}
 
