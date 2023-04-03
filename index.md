@@ -53,7 +53,7 @@ A significant amount of careful planning and design needs to happen before you s
 {% endcapture %}
 {% include alert.html text=planningalert color="warning" %}
 
-Your **preparation** phase should have included:
+Your **preparation** phase should have included: 
 
 - Research problem development
 - Literature review
@@ -102,3 +102,4 @@ To get started with creating a site, just click "[use this template]"!
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+
