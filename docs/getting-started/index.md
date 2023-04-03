@@ -29,9 +29,10 @@ This isn't the only place to get support, so don't panic. We'll show you the oth
 2. Log in to REDCap using your s-number and password.
 3. The first screen you will be shown after login is the `My Projects` screen.
 
-{% capture logoutwarning %}
-**Note:** You'll be logged out if you are inactive for more than a certain period.
-{% endcapture %}
+
+You'll be logged out if you are inactive for more than a certain period.
+{:. .note }
+
 {% include alert.html text=logoutwarning color="warning" %}
 
 ----
