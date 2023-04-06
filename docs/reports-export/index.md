@@ -3,10 +3,14 @@ nav_order: 10
 title: Reports and data export
 layout: default
 has_children: true
-description: REDCap provides several built-in reports and allows you to make your own. It also allows you to export your data to most major statistical packages.
 ---
 
-### Review reports
+## Running reports and exporting your data
+
+REDCap provides several built-in reports and allows you to make your own. It also allows you to export your data to most major statistical packages.
+{:. .highlight }
+
+## Review reports
 
 {% capture basicreport %}
 
