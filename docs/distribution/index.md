@@ -1,7 +1,6 @@
 ---
 nav_order: 9
 title: Distribution
-topics: Distribution; Survey Settings
 layout: default
 has_children: true
 ---
