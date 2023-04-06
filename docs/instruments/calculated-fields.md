@@ -2,7 +2,7 @@
 nav_order: 5
 title: Calculated fields
 layout: default
-parent: Instruments, forms and surveys
+parent: Instruments
 ---
 
 # Calculated fields

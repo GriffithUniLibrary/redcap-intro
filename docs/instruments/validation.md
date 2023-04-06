@@ -2,7 +2,7 @@
 nav_order: 4
 title: Validation
 layout: default
-parent: Instruments, forms and surveys
+parent: Instruments
 ---
 
 We can apply validation for certain types of text entries. For example, we can make sure that a phone number or email address is correctly formatted.

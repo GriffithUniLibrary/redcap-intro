@@ -2,7 +2,7 @@
 nav_order: 2
 title: Basic questions
 layout: default
-parent: Instruments, forms and surveys
+parent: Instruments
 ---
 
 # Basic question types

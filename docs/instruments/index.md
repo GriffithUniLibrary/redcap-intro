@@ -5,7 +5,8 @@ layout: default
 has_children: true
 ---
 
-> Before you can create forms and surveys in REDCap, you need to create a project.
+Before you can create forms and surveys in REDCap, you need to create a project.
+{:. .highlight }
 
 ## The New Project screen
 
