@@ -1,6 +1,6 @@
 ---
-nav_order: 1
-title: Instruments, forms and surveys
+nav_order: 3
+title: Instruments
 layout: default
 has_children: true
 ---
