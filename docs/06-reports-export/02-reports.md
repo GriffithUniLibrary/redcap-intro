@@ -11,6 +11,9 @@ parent: Reports
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 REDCap provides several built-in reports and allows you to make your own. It also allows you to export your data to most major statistical packages.
 {:. .highlight }
 

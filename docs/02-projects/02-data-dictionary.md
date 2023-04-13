@@ -11,6 +11,9 @@ layout: default
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 REDCap can export and import the data structure for your project into a CSV-formatted file called a data dictionary.
 {:. .highlight }
 

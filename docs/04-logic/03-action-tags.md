@@ -11,6 +11,9 @@ parent: Logic
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 > Action tags can help format or adapt entries automatically. For example they can limit the number of characters a participant enters in a field, or prevent them from selecting more than a certain number of options.
 
 Here we are going to create a ‘None of the Above’ checkbox option, that automatically unchecks all the other boxes, and unchecks itself if any other box is ticked.

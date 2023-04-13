@@ -11,6 +11,9 @@ parent: Instruments
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 We will use the first instrument to try out some basic question types by adding some demographic questions.
 
 ## Text box

@@ -11,6 +11,9 @@ has_children: true
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 ## Survey settings
 
 You can set the overall look and feel, as well as the behaviour, of your survey before sending it out.

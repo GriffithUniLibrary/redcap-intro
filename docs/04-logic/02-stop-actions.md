@@ -11,6 +11,9 @@ parent: Logic
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 You can decide to show or hide specific questions based on the results of previous questions, including the results of calculated questions. Here, we are going to show a participant a warning about their BMI if it is over a certain value.
 
 Branching logic cannot be tested until the survey is published.
