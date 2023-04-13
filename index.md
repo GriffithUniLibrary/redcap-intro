@@ -45,16 +45,13 @@ We also assume that you have the following level of understanding:
 
 ## Using this site
 
-This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the 
-{: .d-inline-block }
+This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the {: .d-inline-block }
 In workshop
 {: .label .label-green } 
-label. Additional information that's not included in the workshop is marked with the 
-{: .d-inline-block }
+label. Additional information that's not included in the workshop is marked with the {: .d-inline-block }
 Extra info
 {: .label .label-purple }
-label. Activities are markes by the 
-{: .d-inline-block }
+label. Activities are markes by the {: .d-inline-block }
 Activity
 {: .label }
 label. 
