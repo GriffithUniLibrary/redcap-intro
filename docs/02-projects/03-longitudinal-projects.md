@@ -1,7 +1,7 @@
 ---
-nav_order: 3
-title: Longitudinal studies
 Parent: Projects
+title: Longitudinal studies
+nav_order: 3
 layout: default
 ---
 
