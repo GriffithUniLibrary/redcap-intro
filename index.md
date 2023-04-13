@@ -48,11 +48,11 @@ We also assume that you have the following level of understanding:
 This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the 
 {: .d-inline-block }
 In workshop
-{: .label-green } 
+{: .label .label-green } 
 label. Additional information that's not included in the workshop is marked with the 
 {: .d-inline-block }
 Extra info
-{: .label-purple }
+{: .label .label-purple }
 label. Activities are markes by the 
 {: .d-inline-block }
 Activity
