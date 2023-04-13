@@ -21,7 +21,8 @@ A data dictionary is helpful for saving the design of your survey, or alternativ
 
 ## Activity: Export and edit a data dictionary
 {: .d-inline-block }
-Activity {: .label }
+Activity
+{: .label }
 
 1. In the `Designer`, click the `Data Dictionary` tab.
 2. Click `Download the current Data Dictionary`. A CSV file titled `[Project Name]_DataDictionary_[Date].csv` will download to your `Downloads` directory.
