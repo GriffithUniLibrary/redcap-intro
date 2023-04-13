@@ -6,3 +6,4 @@ has_children: true
 ---
 
 Text here about setting up and maintaining a project
+

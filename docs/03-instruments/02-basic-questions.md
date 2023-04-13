@@ -72,6 +72,9 @@ ___
 
 ## Dealing with identifiable information
 
+Not in workshop
+{: .label .label-yellow }
+
 REDCap allows you to automatically remove personally identifiable information from reports and exported data. Any field can be marked as an identifier.
 
 REDCap uses the US HIPAA model to list what are likely to be personally identifying data. You can look it up using the REDCap help. It is a starting point and it likely to be similar to the Australian model.
