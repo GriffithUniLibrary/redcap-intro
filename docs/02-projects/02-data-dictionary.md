@@ -1,5 +1,5 @@
 ---
-Parent: Projects
+Parent: Working with projects
 title: Data dictionaries
 nav_order: 2
 layout: default
