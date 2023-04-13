@@ -1,7 +1,7 @@
 ---
 title: Getting started
-layout: default
 nav_order: 2
+layout: default
 has_children: true
 ---
 
