@@ -5,7 +5,7 @@ nav_order: 3
 layout: default
 ---
 
-# Data dictionaries
+# Longitudinal projects
 {: .no_toc }
 
 ## Table of contents

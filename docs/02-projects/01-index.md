@@ -5,4 +5,13 @@ layout: default
 has_children: true
 ---
 
-Text here about setting up and maintaining a project
+# Working with projects
+{: .no_toc }
+
+## The project is the basic building block of REDCap. This section covers creating a project and setting its basic parameters like the study type. 
+
+# Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
