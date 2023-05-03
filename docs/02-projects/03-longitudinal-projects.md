@@ -1,8 +1,8 @@
 ---
-Parent: Working with projects
-title: Longitudinal studies
-nav_order: 3
-layout: default
+# Parent: Working with projects
+# title: Longitudinal studies
+# nav_order: 3
+# layout: default
 ---
 
 # Longitudinal studies
