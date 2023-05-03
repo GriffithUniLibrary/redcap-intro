@@ -1,7 +1,7 @@
 ---
 title: Getting started
-layout: default
 nav_order: 2
+layout: default
 has_children: true
 ---
 
@@ -14,7 +14,7 @@ has_children: true
 1. TOC
 {:toc}
 
-# Where to find REDCap
+## Where to find REDCap
 
 The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). You'll see a welcome screen with a place to enter your username and password. Use your Griffith s-number and password to enter.
 

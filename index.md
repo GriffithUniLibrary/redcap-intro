@@ -7,16 +7,17 @@ nav_order: 1
 # REDCap @ Griffith
 {: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+{: .toc }
+
 ## Topic and aims
 
 This resource provides an introduction to using the REDCap (REsearch Data Capture) tool at Griffith University. It may be used on its own or in conjunction with the Griffith RED workshop 'Introduction to REDcap@Griffith'.
 
 The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. It is not intended to act as comprehensive documentation. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
 {:. .note }
-
-## Audience
-
-This workshop is aimed at Griffith researchers and academics in the field of biostatistics, or anyone seeking to get up and running with the REDCap data collection tool.
 
 ## Learning objectives
 
@@ -31,18 +32,29 @@ This workshop is aimed at Griffith researchers and academics in the field of bio
 | Locate REDCap support resources |
 {:.table}
 
-## Required software
+## Requirements
 
 To successfully complete the activities in this resource you will need: 
 
  - A modern browser
  - Access to the Internet
 
-## Assumed knowledge
+We also assume that you have the following level of understanding:
 
-It is assumed that you have the following level of understanding:
+- Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
 
-Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
+## Using this site
+
+This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the {: .d-inline-block }
+In workshop
+{: .label .label-green } 
+label. Additional information that's not included in the workshop is marked with the {: .d-inline-block }
+Extra info
+{: .label .label-purple }
+label. Activities are markes by the {: .d-inline-block }
+Activity
+{: .label }
+label. 
 
 ## Plan your project on paper first!
 

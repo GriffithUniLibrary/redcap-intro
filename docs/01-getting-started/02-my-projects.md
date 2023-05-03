@@ -11,6 +11,9 @@ title: My projects
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 The `My Projects` screen shows any projects you are working on or have access to. Along the top of the screen is the Home Menu. 
 
 ## Home Menu

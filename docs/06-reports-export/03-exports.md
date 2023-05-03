@@ -11,6 +11,9 @@ parent: Reports
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 ## Export data
 
 {% capture export %}

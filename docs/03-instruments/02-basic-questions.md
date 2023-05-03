@@ -11,6 +11,9 @@ parent: Instruments
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 We will use the first instrument to try out some basic question types by adding some demographic questions.
 
 ## Text box
@@ -71,6 +74,9 @@ REDCap automatically adds numeric Raw Values for each choice. Raw values are wha
 ___
 
 ## Dealing with identifiable information
+
+Not in workshop
+{: .label .label-yellow }
 
 REDCap allows you to automatically remove personally identifiable information from reports and exported data. Any field can be marked as an identifier.
 

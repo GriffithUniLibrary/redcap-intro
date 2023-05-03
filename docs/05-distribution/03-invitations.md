@@ -11,6 +11,9 @@ parent: Distribution
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 To automatically invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
 
 {% capture participantlist %}

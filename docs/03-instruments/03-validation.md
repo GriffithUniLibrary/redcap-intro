@@ -11,6 +11,9 @@ parent: Instruments
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 We can apply validation for certain types of text entries. For example, we can make sure that a phone number or email address is correctly formatted.
 
 {% capture postcode %}

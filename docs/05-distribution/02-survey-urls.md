@@ -11,6 +11,9 @@ parent: Distribution
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 1. Click `Survey Distribution Tools` in the left-hand navigation.
 2. Note that the `Public Survey URL` can be copied and pasted into an email or web page.
 3. More memorable URLS can be created using `Create Custom Survey Link`. They may only contain letters, numbers and underscores.
