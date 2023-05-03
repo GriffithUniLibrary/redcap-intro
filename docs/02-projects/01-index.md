@@ -8,9 +8,7 @@ has_children: true
 # Working with projects
 {: .no_toc }
 
-{: .fs-9 }
-The project is the basic building block of REDCap. This section covers creating a project and setting its basic parameters like the study type. 
-{: .fs-6 .fw-300 }
+The project is the basic building block of REDCap. This section covers creating a project and setting its basic parameters like the study type. {: .fs-6 .fw-300 }
 
 # Table of contents
 {: .no_toc .text-delta }
