@@ -1,7 +1,7 @@
 ---
 nav_order: 2
 title: Data dictionaries
-Parent: Projects
+Parent: Working with projects
 layout: default
 ---
 

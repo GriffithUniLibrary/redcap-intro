@@ -1,6 +1,6 @@
 ---
 nav_order: 3
-title: Projects
+title: Working with projects
 layout: default
 has_children: true
 ---
