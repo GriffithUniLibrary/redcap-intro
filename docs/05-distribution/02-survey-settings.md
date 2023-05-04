@@ -19,7 +19,7 @@ parent: Distribution
 You can set the overall look and feel, as well as the behaviour, of your survey before sending it out.
 Many of the options are either self-explanatory or beyond the scope of this workshop. We will not go through every option.
 
-{% capture surveysettings %}
+### Activity: Set auto-continue option
 
 1. Click `Return` to the list of instruments.
 2. Click `Survey settings` alongside the _Demographic data_ instrument.
@@ -28,10 +28,8 @@ Many of the options are either self-explanatory or beyond the scope of this work
 5. The `Save and Return Later` option creates a ‘return code’ that allows participants to return to a partially completed survey.
 6. Check `Auto-continue` to next survey.
 
-{% include alert.html text="Checking Auto-continue to next survey will make sure that once the participant has completed the `demographics` survey, they are automatically redirected to the `Baseline Health Data` survey. If you don’t use this option, you would need to send participants a separate link to the second survey." color="info" %}
-
-{% endcapture %}
-{% include card.html header="Survey Settings" text=surveysettings %}
+Checking Auto-continue to next survey will make sure that once the participant has completed the `demographics` survey, they are automatically redirected to the `Baseline Health Data` survey. If you don’t use this option, you would need to send participants a separate link to the second survey.
+{: .info }
 
 ## Distributing your survey
 

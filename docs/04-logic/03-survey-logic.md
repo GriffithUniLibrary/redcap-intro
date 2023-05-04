@@ -1,5 +1,5 @@
 ---
-nav_order: 2
+nav_order: 3
 title: Branching logic
 layout: default
 parent: Logic
@@ -14,12 +14,9 @@ parent: Logic
 1. TOC
 {:toc}
 
-Branching logic is also known as conditional display logic.
+Branching logic is also known as conditional display logic. 
 
 You can decide to show or hide specific questions based on the results of previous questions, including the results of calculated questions. Here, we are going to show a participant a warning about their BMI if it is over a certain value.
-
-Remember that branching logic operates on the question to be displayed, not on the question before.
-{:. .info }
 
 Branching logic cannot be tested until the survey is published.
 {:. .warning }
