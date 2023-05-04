@@ -30,7 +30,7 @@ callouts:
     title: Success
     color: green
   highlight:
-    title: Highlight
+    title: Important
     color: yellow
   note:
     title: note

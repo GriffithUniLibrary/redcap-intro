@@ -42,9 +42,10 @@ Branching logic cannot be tested until the survey is published.
 
 You can end the survey automatically based on a participant’s answers to a question.
 
-{% include alert.html text="Stop Actions cannot be tested until the survey is published." color="warning" %}
+Stop Actions cannot be tested until the survey is published
+{: .highlight }
 
-{% capture stopaction %}
+### Activity: Create a Stop Action
 
 1. Click `Return to list of instruments`.
 2. Choose the _Baseline Health Data_ instrument.
@@ -56,26 +57,23 @@ Click the red button in the question menu.
 Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions.
 {:. .note }
 
-{% endcapture %}
-{% include card.html header="Create a Stop Action" text=stopaction %}
-
-### Action tags
+## Action tags
 
 Action tags can help format or adapt entries automatically. For example they can limit the number of characters a participant enters in a field, or prevent them from selecting more than a certain number of options.
 
 Here we are going to create a ‘None of the Above’ checkbox option, that automatically unchecks all the other boxes, and unchecks itself if any other box is ticked.
 {:. .info }
 
-{% capture actiontag %}
+### Activity: Add ‘None of the Above’ to the Existing Conditions’ question
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click the `edit` button ( ) next to the question labelled _Do you suffer from any of the following conditions?_
 2. Add a new option to the list of options as follows: `5, None of the above`.
 3. In the `Action Tags` field, type `@NONEOFTHEABOVE=5`. This indicates that the answer option coded as ‘5’ operates as the ‘none of the above’ option.
 
 {% include alert.html text="Note that we can only test this action tag by looking at the live survey, once it has been published." color="info" %}
-
-{% endcapture %}
-{% include card.html header="Add ‘None of the Above’ to the Existing Conditions’ question" text=actiontag %}
 
 Now we will add an action tag that causes the calculated field we created before to be hidden from the participant view.
 {:. .info }

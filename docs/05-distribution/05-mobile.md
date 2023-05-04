@@ -18,4 +18,6 @@ parent: Distribution
 
 REDCap offers a mobile app on iOS and Android. The mobile app allows for mobile, offline data input. That is, you don’t need mobile reception to use it. This can be ideal for environmental research or remote-area social research.
 
-## 
+## MyCap Mobile App
+
+The MyCap Mobile App allows participants to enter data into your project. 
