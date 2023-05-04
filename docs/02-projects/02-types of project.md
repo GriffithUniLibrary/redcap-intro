@@ -22,3 +22,5 @@ There are two basic project types in REDCap, 'classic' and 'longitudinal'.
 Text
 
 ## Longitudinal projects
+
+Text
