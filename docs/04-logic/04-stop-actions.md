@@ -84,3 +84,8 @@ Now we will add an action tag that causes the calculated field we created before
 
 {% endcapture %}
 {% include card.html header="Hide a question using action tags" text=actiontaghide %}
+
+## Alternative stop action text
+
+Can we include info here about custom outbound URLs? 
+
