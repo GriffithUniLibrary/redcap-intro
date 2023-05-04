@@ -1,4 +1,4 @@
----
+<!-- ---
 # Parent: Working with projects
 # title: Longitudinal studies
 # nav_order: 3
@@ -16,3 +16,4 @@
 
 A longitudinal study captures data from the same cohort over time, usually at defined points. It may also track more than one cohort, for example a control group and an intervention group. 
 
+ -->
