@@ -11,8 +11,6 @@ title: Creating a project
 There are two basic project types in REDCap, 'classic' and 'longitudinal'.
 {: .fs-6 .fw-300 }
 
-This--->That
-
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -27,3 +25,4 @@ When you click `New Project` in the top menu, you'll be presented with the` New 
 
 You can start with an empty project, or use a template provided by REDCap. Templates can be a useful way of getting started with a basic project structure, if you know the type of project you need. We are going to start with an empty project.
 
+This--->That
