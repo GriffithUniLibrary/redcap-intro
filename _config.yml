@@ -18,6 +18,10 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
 
+# Set mermaid version
+mermaid:
+  version: "10.1.0"
+
 # Define callout colours and titles
 callouts:
   warning:
