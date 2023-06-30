@@ -22,8 +22,8 @@ To protect a public survey from illegitimate attempted by spambots, you may add 
 
 When activated in a project, the module will protect the public survey access with a CAPTCHA (either a classic image CAPTCHA with distorted text, a math problem, or a custom challenge). A survey respondent will have to complete the CAPTCHA challenge before being allowed to proceed to the survey. The CAPTCHA has to be completed at most once per user session.
 
-![[math puzzle.png]]
-![[distorted text.png]]
+![](../../assets/images/math puzzle.png)
+![](../../assets/images/distorted text.png)
 
 ## How to request
 
@@ -54,11 +54,11 @@ Once activated in your project, nedCAPTCHA can be further customised by project 
 
 2. Locate the nedCAPTCHA module > Click "Configure" to open module configuration settings
 
-![[module configuration.png]]
+![](../../assets/images/module configuration.png)
 
 3. Customise the module as required (e.g. select a desired type of CAPTCHA) by changing setting values. 
 
-![[nedCAPTCHA configuration.png]]
+![](../../assets/images/nedCAPTCHA configuration.png)
 
 5. Test the CAPTCHA by opening the survey using the public survey URL (from Survey Distribution Tools)
 
@@ -70,6 +70,6 @@ You must have the user right of "Project Design and Setup" to access the Externa
 
 First make sure an active type of CAPTCHA is selected in module configuration setting, not the one says "None (inactive)".
 
-![[none inactive.png]]
+![](../../assets/images/none inactive.png)
 
 The CAPTCHA is only required at most once per user session. If you have tested it once in an internet session, the CAPTCHA will be skipped for the subsequent attempts of accessing the public survey URL within that session. You may start a new session by clearing the browser cache, using a different browser or restarting the browser.
