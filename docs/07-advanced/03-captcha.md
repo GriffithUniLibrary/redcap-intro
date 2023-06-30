@@ -14,9 +14,11 @@ parent: Advanced topics
 1. TOC
 {:toc}
 
+## What does a CAPTCHA do?
+
 To protect a public survey from illegitimate attempted by spambots, you may add a [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) to your survey. **nedCAPTCHA** is a REDcap **External Module** that adds CAPTCHA protection to public surveys without any dependencies on external services such as Google (hence the name ned=**n**o **e**xternal **d**ependencies)
 
-## Effect
+## Effect of adding nedCAPTCHA to my survey
 
 When activated in a project, the module will protect the public survey access with a CAPTCHA (either a classic image CAPTCHA with distorted text, a math problem, or a custom challenge). A survey respondent will have to complete the CAPTCHA challenge before being allowed to proceed to the survey. The CAPTCHA has to be completed at most once per user session.
 
@@ -48,7 +50,7 @@ Once activated in your project, nedCAPTCHA can be further customised by project 
 
 1. One the left menu > External Modules > Click "Manage" to display available modules 
 
-![](/assets/images/external modules.png)
+![](../../assets/images/external modules.png)
 
 2. Locate the nedCAPTCHA module > Click "Configure" to open module configuration settings
 
