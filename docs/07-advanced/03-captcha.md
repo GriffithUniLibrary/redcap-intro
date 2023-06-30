@@ -5,7 +5,7 @@ layout: default
 parent: Advanced topics
 ---
 
-# Prevent spam submissions by adding a CAPTCHA
+# Prevent spam submissions with a CAPTCHA
 {: .no_toc }
 
 ## Table of contents
