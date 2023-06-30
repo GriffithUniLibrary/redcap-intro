@@ -38,6 +38,8 @@ In this case the parameter is `foo` and the value of that parameter is `bar`. To
 4. Add the action tag `@HIDDEN-SURVEY`. This will make sure the value of `psid` is not displayed on screen. 
 
 ![](../../assets/images/ptp-field-psid.png)
+Adding the @HIDDEN-SURVEY action tag
+{: .fs-3 .fw-300 }
 
 You can now set up the rest of your survey. In each completed record, the field `psid` will contain the value of the URL parameter that was passed into it. 
 
@@ -61,7 +63,7 @@ We need to use an action tag called @CALCTEXT to generate the final URL that par
 
 ![](../../assets/images/ptp-field-endurl.png)
 Creating the endURL field
-{: .fs-2 .fw-300 }
+{: .fs-3 .fw-300 }
 
 ### Code breakdown
 
@@ -76,7 +78,7 @@ The `if` function returns different values depending on some logical evaluation.
 
 ![](../../assets/images/ptp-logic-editor.png)
 The equation in the Action tag editor
-{: .fs-2 .fw-300 }
+{: .fs-3 .fw-300 }
 
 In this case, if `eligibility` is 0 (i.e. the participant is ineligible), we apply the following parameters: 
 
@@ -108,6 +110,6 @@ Once you have tested the logic and made sure that the URL is being composed as y
 
 ![](../../assets/images/ptp-survey-settings.png)
 Adding the End URL to the survey settings.
-{: .fs-2 .fw-300 }
+{: .fs-3 .fw-300 }
 
 When the participant completes the survey, they will be automatically directed to one of the URLs built by your expression in the [end_url] field. 
