@@ -37,7 +37,7 @@ In this case the parameter is `foo` and the value of that parameter is `bar`. To
 3. Set the `Variable name` to **psid** (or whatever the name of your URL parameter is).
 4. Add the action tag `@HIDDEN-SURVEY`. This will make sure the value of `psid` is not displayed on screen. 
 
-{% include figure.html img="ptp-field-psid.png" alt="Creating the PSID field." width="100%" %}
+![](../../assets/images/ptp-field-psid.png)
 
 You can now set up the rest of your survey. In each completed record, the field `psid` will contain the value of the URL parameter that was passed into it. 
 
@@ -59,7 +59,9 @@ We need to use an action tag called @CALCTEXT to generate the final URL that par
 @CALCTEXT(concat(if([eligibility]=0, 'https://somepanelcompany.com/projects/end?rst=2&psid=', 'https://somepanelcompany.com/projects/end?rst=1&basic=14880&psid='),[psid]))
 ```
 
-{% include figure.html img="ptp-field-endurl.png" alt="Creating the End URL field." width="100%" %}
+![](../../assets/images/ptp-field-endurl.png)
+Creating the endURL field
+{: .fs-2 .fw-300 }
 
 ### Code breakdown
 
@@ -72,7 +74,9 @@ The `concat` function concatenates strings. It uses the pattern: `concat(string1
 #### If
 The `if` function returns different values depending on some logical evaluation. It uses the pattern: `if(logical-test, value-if-true, value-if-false`). 
 
-{% include figure.html img="ptp-logic-editor.png" alt="The equation in the Action tag editor." width="100%" %}
+![](../../assets/images/ptp-logic-editor.png)
+The equation in the Action tag editor
+{: .fs-2 .fw-300 }
 
 In this case, if `eligibility` is 0 (i.e. the participant is ineligible), we apply the following parameters: 
 
@@ -102,6 +106,8 @@ Once you have tested the logic and made sure that the URL is being composed as y
 3. Select the `Redirect to a URL` radio button.
 4. Enter the Variable name of the URL that you have composed. 
 
-{% include figure.html img="ptp-survey-settings.png" alt="Adding the End URL to the survey settings." width="100%" %}
+![](../../assets/images/ptp-survey-settings.png)
+Adding the End URL to the survey settings.
+{: .fs-2 .fw-300 }
 
 When the participant completes the survey, they will be automatically directed to one of the URLs built by your expression in the [end_url] field. 
