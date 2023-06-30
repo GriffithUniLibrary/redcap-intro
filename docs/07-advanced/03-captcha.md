@@ -73,4 +73,4 @@ First make sure an active type of CAPTCHA is selected in module configuration se
 ![](../../assets/images/none inactive.png)
 
 The CAPTCHA is only required at most once per user session. If you have tested it once in an internet session, the CAPTCHA will be skipped for the subsequent attempts of accessing the public survey URL within that session. You may start a new session by clearing the browser cache, using a different browser or restarting the browser.
-{. .note}
+{:. .info }
