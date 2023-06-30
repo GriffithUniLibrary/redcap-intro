@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-title: Passthrough parameters
+title: Adding a CAPTCHA
 layout: default
 parent: Advanced topics
 ---
@@ -48,7 +48,7 @@ Once activated in your project, nedCAPTCHA can be further customised by project 
 
 1. One the left menu > External Modules > Click "Manage" to display available modules 
 
-![[external modules.png]]
+![](/assets/images/external modules.png)
 
 2. Locate the nedCAPTCHA module > Click "Configure" to open module configuration settings
 
