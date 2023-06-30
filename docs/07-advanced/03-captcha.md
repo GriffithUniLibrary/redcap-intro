@@ -1,5 +1,5 @@
 ---
-nav_order: 2
+nav_order: 3
 title: Adding a CAPTCHA
 layout: default
 parent: Advanced topics
