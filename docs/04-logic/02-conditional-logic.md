@@ -24,19 +24,19 @@ Remember that branching logic operates on the question to be displayed, not on t
 Branching logic cannot be tested until the survey is published.
 {:. .warning }
 
-## Activity: Create a BMI Warning
-
-1. Click `Add Field`
-2. Choose `Descriptive Text` (with optional Image/Video) for the `Field Type`.
-3. In the `Field` Label, type the following:
-`Based on the information you've provided, your BMI (body mass index) is in a range associated with increased risk of cardiovascular diseases and diabetes.`
-4. In the `Variable Name`, type bmi_warning.
-5. Click `Save`.
-6. Click the `Branching Logic Button` ( ).
-7. Select the `Drag-N-Drop Logic Builder`.
-8. Drag bmi = (define criteria) to the right column.
-9. Select greater than (`>`) and type 30 in the value field.
-10. Note that the equation `[bmi] > 30` also appears in the Advanced Branching Logic Syntax section above.
+> ### Activity: Create a BMI Warning
+>
+> 1. Click `Add Field`
+> 2. Choose `Descriptive Text` (with optional Image/Video) for the `Field Type`.
+> 3. In the `Field` Label, type the following:
+> `Based on the information you've provided, your BMI (body mass index) is in a range associated > with increased risk of cardiovascular diseases and diabetes.`
+> 4. In the `Variable Name`, type bmi_warning.
+> 5. Click `Save`.
+> 6. Click the `Branching Logic Button` ( ).
+> 7. Select the `Drag-N-Drop Logic Builder`.
+> 8. Drag bmi = (define criteria) to the right column.
+> 9. Select greater than (`>`) and type 30 in the value field.
+> 10. Note that the equation `[bmi] > 30` also appears in the Advanced Branching Logic Syntax section above.
 {: .code-example }
 
 ### Stop Actions
