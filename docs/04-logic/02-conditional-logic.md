@@ -99,7 +99,5 @@ Activity
 {: .code-example }
 <!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
-{% include alert.html text="There are versions of this tag that will hide the question from just the survey, just the mobile app, or from all instruments." color="info" %}
-
-{% endcapture %}
-{% include card.html header="" text=actiontaghide %}
+There are versions of this tag that will hide the question from just the survey, just the mobile app, or from all instruments.
+{:. .info }
