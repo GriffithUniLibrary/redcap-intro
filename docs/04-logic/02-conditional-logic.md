@@ -37,6 +37,7 @@ Branching logic cannot be tested until the survey is published.
 8. Drag bmi = (define criteria) to the right column.
 9. Select greater than (`>`) and type 30 in the value field.
 10. Note that the equation `[bmi] > 30` also appears in the Advanced Branching Logic Syntax section above.
+{: .code-example }
 
 ### Stop Actions
 
