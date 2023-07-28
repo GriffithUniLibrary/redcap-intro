@@ -14,6 +14,8 @@ parent: Logic
 1. TOC
 {:toc}
 
+## Branching logic
+
 Branching logic is also known as conditional display logic.
 
 You can decide to show or hide specific questions based on the results of previous questions, including the results of calculated questions. Here, we are going to show a participant a warning about their BMI if it is over a certain value.
@@ -24,7 +26,7 @@ Remember that branching logic operates on the question to be displayed, not on t
 Branching logic cannot be tested until the survey is published.
 {:. .warning }
 
-> ## Activity: Create a BMI Warning
+### Activity: Create a BMI Warning
 {: .d-inline-block }
 Activity
 {: .label }
@@ -40,8 +42,9 @@ Activity
 > 9. Select greater than (`>`) and type 30 in the value field.
 > 10. Note that the equation `[bmi] > 30` also appears in the Advanced Branching Logic Syntax section above.
 {: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
-### Stop Actions
+## Stop Actions
 
 You can end the survey automatically based on a participant’s answers to a question.
 
@@ -49,13 +52,17 @@ Stop Actions cannot be tested until the survey is published
 {: .highlight }
 
 ### Activity: Create a Stop Action
-
-1. Click `Return to list of instruments`.
-2. Choose the _Baseline Health Data_ instrument.
-3. Scroll to the question that reads: Do you suffer from any of the following conditions?
-Click the red button in the question menu.
-4. Select _Asthma_ and click `Save`.
-5. Note that the _Asthma_ option now has `[End Survey]` alongside it in red.
+{: .d-inline-block }
+Activity
+{: .label }
+> 1. Click `Return to list of instruments`.
+> 2. Choose the _Baseline Health Data_ instrument.
+> 3. Scroll to the question that reads: Do you suffer from any of the following conditions?
+> Click the red button in the question menu.
+> 4. Select _Asthma_ and click `Save`.
+> 5. Note that the _Asthma_ option now has `[End Survey]` alongside it in red.
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions.
 {:. .note }
@@ -71,22 +78,28 @@ Here we are going to create a ‘None of the Above’ checkbox option, that auto
 {: .d-inline-block }
 Activity
 {: .label }
+> 1. Click the `edit` button ( ) next to the question labelled _Do you suffer from any of the following conditions?_
+> 2. Add a new option to the list of options as follows: `5, None of the above`.
+> 3. In the `Action Tags` field, type `@NONEOFTHEABOVE=5`. This indicates that the answer option coded as ‘5’ operates as the ‘none of the above’ option.
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
-1. Click the `edit` button ( ) next to the question labelled _Do you suffer from any of the following conditions?_
-2. Add a new option to the list of options as follows: `5, None of the above`.
-3. In the `Action Tags` field, type `@NONEOFTHEABOVE=5`. This indicates that the answer option coded as ‘5’ operates as the ‘none of the above’ option.
-
-{% include alert.html text="Note that we can only test this action tag by looking at the live survey, once it has been published." color="info" %}
+Note that we can only test this action tag by looking at the live survey, once it has been published.
+{:. .warning }
 
 Now we will add an action tag that causes the calculated field we created before to be hidden from the participant view.
 {:. .info }
 
-{% capture actiontaghide %}
-
-1. Click the `edit` button ( ) next to the question labelled _Your Body Mass Index (BMI)_.
-2. In the `Action Tags` field, type `@HIDDEN-SURVEY`. This will prevent the question being shown to the participant in the survey (although you will still be able to see it in the form view).
+Activity: Hide a question using action tags
+{: .d-inline-block }
+Activity
+{: .label }
+> 1. Click the `edit` button ( ) next to the question labelled _Your Body Mass Index (BMI)_.
+> 2. In the `Action Tags` field, type `@HIDDEN-SURVEY`. This will prevent the question being shown to the participant in the survey (although you will still be able to see it in the form view).
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 {% include alert.html text="There are versions of this tag that will hide the question from just the survey, just the mobile app, or from all instruments." color="info" %}
 
 {% endcapture %}
-{% include card.html header="Hide a question using action tags" text=actiontaghide %}
+{% include card.html header="" text=actiontaghide %}
