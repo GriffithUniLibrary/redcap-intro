@@ -24,8 +24,10 @@ Remember that branching logic operates on the question to be displayed, not on t
 Branching logic cannot be tested until the survey is published.
 {:. .warning }
 
-> ### Activity: Create a BMI Warning
->
+> ## Activity: Create a BMI Warning
+{: .d-inline-block }
+Activity
+{: .label }
 > 1. Click `Add Field`
 > 2. Choose `Descriptive Text` (with optional Image/Video) for the `Field Type`.
 > 3. In the `Field` Label, type the following:
