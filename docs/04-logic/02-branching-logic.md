@@ -8,15 +8,14 @@ parent: Logic
 # Branching logic
 {: .no_toc }
 
+Branching logic is also known as conditional display logic.
+{: .fs-6 .fw-300 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
-## Branching logic
-
-Branching logic is also known as conditional display logic.
 
 You can decide to show or hide specific questions based on the results of previous questions, including the results of calculated questions. Here, we are going to show a participant a warning about their BMI if it is over a certain value.
 

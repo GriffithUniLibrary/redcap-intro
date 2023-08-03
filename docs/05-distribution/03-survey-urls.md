@@ -16,9 +16,10 @@ parent: Distribution
 
 ## Sharing the survey URL
 
-## Creating a custom URL
-
-### Activity: 
+### Create a custom URL
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click `Survey Distribution Tools` in the left-hand navigation.
 2. Note that the `Public Survey URL` can be copied and pasted into an email or web page.
@@ -29,6 +30,8 @@ parent: Distribution
 7. Click `Survey Access Code` or QR Code.
 8. Try pointing your smartphone camera at the QR code to see the survey load.
 9. The QR code can be dragged and dropped into a document, email or web page, or it can be saved as an image to be used later.
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 Short URLs and custom URLs can not pass on URL parameters. They should not be used if you are planning on using URL parameters to capture data into your project (for example, if you are working with a panel company and need to record the participant ID)
 {: .info }

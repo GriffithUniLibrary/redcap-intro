@@ -19,7 +19,11 @@ parent: Distribution
 You can set the overall look and feel, as well as the behaviour, of your survey before sending it out.
 Many of the options are either self-explanatory or beyond the scope of this workshop. We will not go through every option.
 
-### Activity: Set auto-continue option
+### Set auto-continue option
+You can end the survey automatically based on a participant’s answers to a question.
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click `Return` to the list of instruments.
 2. Click `Survey settings` alongside the _Demographic data_ instrument.
@@ -27,6 +31,8 @@ Many of the options are either self-explanatory or beyond the scope of this work
 4. Note that the survey can be given a `Survey Expiration date`.
 5. The `Save and Return Later` option creates a ‘return code’ that allows participants to return to a partially completed survey.
 6. Check `Auto-continue` to next survey.
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 Checking Auto-continue to next survey will make sure that once the participant has completed the `demographics` survey, they are automatically redirected to the `Baseline Health Data` survey. If you don’t use this option, you would need to send participants a separate link to the second survey.
 {: .info }
@@ -39,7 +45,10 @@ You’ll notice that there will be a green button under each survey reading `Ena
 
 {% include figure.html img="my-instruments.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
 
-{% capture publicurl %}
+Distributing a public survey URL
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click `Survey Distribution Tools` in the left-hand navigation.
 2. Note that the `Public Survey URL` can be copied and pasted into an email or web page.
@@ -50,15 +59,17 @@ You’ll notice that there will be a green button under each survey reading `Ena
 7. Click `Survey Access Code` or QR Code.
 8. Try pointing your smartphone camera at the QR code to see the survey load.
 9. The QR code can be dragged and dropped into a document, email or web page, or it can be saved as an image to be used later.
-{% endcapture %}
-{% include card.html header="Distributing a public survey URL" text=publicurl %}
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 ### Automatic invitations
 
 To automatically invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
 
-{% capture participantlist %}
 Create a participant list and send invitations
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. In `Survey Distribution Tools`, click the `Participant List` tab.
 2. Click `Add Participants`.
@@ -72,8 +83,8 @@ Create a participant list and send invitations
 10. The email may be edited and formatted with common text formatting options.
 11. Check that the email address in the `Participant List` on the right column is checked.
 12. Click `Send Invitations`.
-{% endcapture %}
-{% include card.html header="Distributing a public survey URL" text=participantlist %}
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
 ### The REDCap mobile app
 
@@ -101,24 +112,22 @@ Obtaining ethics approval
 9. Click _I’m done_ on the `Test your project` section.
 10. Click _I’m done_ on `Move your project to production status`.
 
-{% capture checklist %}
 It is not strictly necessary to click all of the “I’m done” boxes to move to production, but it is a handy checklist to make sure you have completed what you need to do before going live.
-{% endcapture %}
+{:. .info }
 
-{% include alert.html text=checklist color="info" %}
-
-{% endcapture %}
-{% include card.html header="Move your project to production status" text=production %}
+Move your project to production status
 
 {% include figure.html img="move-to-production.png" alt="Alt text" caption="Move your project to production status" width="100" %}
 
-{% capture livedata %}
+Entering live data
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click on `Survey Distribution Tools` on the left-hand navigation.  
 2. Click `Open Public Survey`.
 3. Complete the survey (there will be three sections) and click `Submit`. Try experimenting with the validation and calculation fields by entering different values.
 4. Close the tab.
 5. Click `Project Home` and note that there is now a new record in the project.
-{% endcapture %}
-{% include card.html header="Entering live data" text=livedata %}
-
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->

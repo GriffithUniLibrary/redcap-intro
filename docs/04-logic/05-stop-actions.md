@@ -8,13 +8,14 @@ parent: Logic
 # Stop actions
 {: .no_toc }
 
+You can end the survey automatically based on a participant’s answers to a question.
+{: .fs-6 .fw-300 }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
-You can end the survey automatically based on a participant’s answers to a question.
 
 Stop Actions cannot be tested until the survey is published
 {: .highlight }
