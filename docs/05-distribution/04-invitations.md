@@ -16,9 +16,10 @@ parent: Distribution
 
 To automatically invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
 
-{% capture participantlist %}
 Create a participant list and send invitations
-
+{: .d-inline-block }
+Activity
+{: .label }
 1. In `Survey Distribution Tools`, click the `Participant List` tab.
 2. Click `Add Participants`.
 3. Enter your own email address.
@@ -31,5 +32,5 @@ Create a participant list and send invitations
 10. The email may be edited and formatted with common text formatting options.
 11. Check that the email address in the `Participant List` on the right column is checked.
 12. Click `Send Invitations`.
-{% endcapture %}
-{% include card.html header="Distributing a public survey URL" text=participantlist %}
+{: .code-example }
+<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->

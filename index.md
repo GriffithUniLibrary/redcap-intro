@@ -4,10 +4,14 @@ layout: home
 nav_order: 0
 ---
 
+![REDCap Logo](/assets/images/redcap-logo.jpg)
+
 # REDCap @ Griffith
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 {: .toc }
@@ -22,22 +26,23 @@ The aim of this workshop is to get you up and running with REDCap quickly. We ai
 ## Learning objectives
 
 | Once you have completed this workshop you should be able to: |
-| -----|
-| Log in to the Griffith REDCap instance |
-| Create a new project |
-| Create a data collection instrument |
-| Create basic questions and apply validation |
-| Control question visibility using branching logic |
-| Publish and distribute your project |
-| Locate REDCap support resources |
+| ------------------------------------------------------------ |
+| Log in to the Griffith REDCap instance                       |
+| Create a new project                                         |
+| Create a data collection instrument                          |
+| Create basic questions and apply validation                  |
+| Control question visibility using branching logic            |
+| Publish and distribute your project                          |
+| Locate REDCap support resources                              |
+
 {:.table}
 
 ## Requirements
 
-To successfully complete the activities in this resource you will need: 
+To successfully complete the activities in this resource you will need:
 
- - A modern browser
- - Access to the Internet
+- A modern browser
+- Access to the Internet
 
 We also assume that you have the following level of understanding:
 
@@ -45,17 +50,17 @@ We also assume that you have the following level of understanding:
 
 ## Using this site
 
-This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the 
+This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the
 {: .d-inline-block }
 In workshop
-{: .label .label-green } 
-label. 
-Additional information that's not included in the workshop is marked with the 
+{: .label .label-green }
+label.
+Additional information that's not included in the workshop is marked with the
 {: .d-inline-block }
 Extra info
 {: .label .label-purple }
-label. 
-Activities are markes by the 
+label.
+Activities are markes by the
 {: .d-inline-block }
 Activity
 {: .label }
@@ -66,7 +71,7 @@ label.
 A significant amount of careful planning and design needs to happen before you start building your survey. The stronger your preparation, the more credible your methodology will be.
 {:. .warning }
 
-Your **preparation** phase should have included: 
+Your **preparation** phase should have included:
 
 - Research problem development
 - Literature review
@@ -82,12 +87,11 @@ Your **design** phase should have included:
 
 See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
 
-----
+---
 
+This is a _bare-minimum_ template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
-
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+If [Jekyll] is installed on your computer, you can also build and preview the created site _locally_. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
 
 More specifically, the created site:
 
@@ -100,7 +104,7 @@ Other than that, you're free to customize sites that you create with this templa
 
 To get started with creating a site, just click "[use this template]"!
 
-----
+---
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
@@ -110,4 +114,3 @@ To get started with creating a site, just click "[use this template]"!
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-
