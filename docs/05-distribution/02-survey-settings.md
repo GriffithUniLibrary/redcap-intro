@@ -6,13 +6,15 @@ parent: Distribution
 ---
 
 # Survey settings
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Survey settings
 
@@ -20,6 +22,7 @@ You can set the overall look and feel, as well as the behaviour, of your survey 
 Many of the options are either self-explanatory or beyond the scope of this workshop. We will not go through every option.
 
 ### Set auto-continue option
+
 You can end the survey automatically based on a participant’s answers to a question.
 {: .d-inline-block }
 Activity
@@ -41,7 +44,7 @@ Checking Auto-continue to next survey will make sure that once the participant h
 
 ### Enabling your survey
 
-You’ll notice that there will be a green button under each survey reading `Enable`. Tip: If you don’t see it, you need to go to your Project Setup and select Use surveys in this project.  
+You’ll notice that there will be a green button under each survey reading `Enable`. Tip: If you don’t see it, you need to go to your Project Setup and select Use surveys in this project.
 
 {% include figure.html img="my-instruments.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
 
@@ -53,7 +56,7 @@ Activity
 1. Click `Survey Distribution Tools` in the left-hand navigation.
 2. Note that the `Public Survey URL` can be copied and pasted into an email or web page.
 3. More memorable URLS can be created using `Create Custom Survey Link`. They may only contain letters, numbers and underscores.
-4. Click `Create Custom Survey Link` and type in __RCTraining_[YYYY]_[MM]_[YB]__ where [YYYY] is the year, [MM] is the month and [YB] are your initials.
+4. Click `Create Custom Survey Link` and type in **RCTraining*[YYYY]*[MM]\_[YB]** where [YYYY] is the year, [MM] is the month and [YB] are your initials.
 5. Click `Submit`.
 6. You can use a QR code to have people’s smartphones automatically load the survey URL.
 7. Click `Survey Access Code` or QR Code.
@@ -78,7 +81,7 @@ Activity
 5. Click `Compose Survey Invitations`.
 6. Check the `Enable Reminders` box.
 7. Select _Send every 2 days_.
-8. Select _Send Only Once_.  This will send one reminder after two days, only if the participant hasn’t yet completed the survey.
+8. Select _Send Only Once_. This will send one reminder after two days, only if the participant hasn’t yet completed the survey.
 9. In the `Subject Line`, type _Invitation to participate in vaccine efficacy trial_. Specific subject lines are less likely to be flagged as spam than generic ones.
 10. The email may be edited and formatted with common text formatting options.
 11. Check that the email address in the `Participant List` on the right column is checked.
@@ -99,9 +102,9 @@ NB: Once your project is in Production status, structural changes become much mo
 Obtaining ethics approval
 {% include alert.html text="WARNING: REDCap allows you to make your project live without administrator oversight. It is your responsibility to obtain ethics approval from the Office of Research before proceeding with any human research." color="warning" %}
 
-{% capture production %}
+## Move your Project to production status
 
-1. Click on `Project Setup` on the left-hand navigation.  
+1. Click on `Project Setup` on the left-hand navigation.
 2. Note that The `Main Project Settings` section shows a green check and the words _“I’m done!”_
 3. We are now done with the second section (design data collection instruments). Click _I’m done_.
 4. The `Optional modules` allow for longitudinal studies and randomisation. These are outside the scope of today’s workshop.
@@ -124,7 +127,7 @@ Entering live data
 Activity
 {: .label }
 
-1. Click on `Survey Distribution Tools` on the left-hand navigation.  
+1. Click on `Survey Distribution Tools` on the left-hand navigation.
 2. Click `Open Public Survey`.
 3. Complete the survey (there will be three sections) and click `Submit`. Try experimenting with the validation and calculation fields by entering different values.
 4. Close the tab.
