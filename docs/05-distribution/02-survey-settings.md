@@ -102,7 +102,10 @@ NB: Once your project is in Production status, structural changes become much mo
 Obtaining ethics approval
 {% include alert.html text="WARNING: REDCap allows you to make your project live without administrator oversight. It is your responsibility to obtain ethics approval from the Office of Research before proceeding with any human research." color="warning" %}
 
-## Move your Project to production status
+Move your project to production status
+{: .d-inline-block }
+Activity
+{: .label }
 
 1. Click on `Project Setup` on the left-hand navigation.
 2. Note that The `Main Project Settings` section shows a green check and the words _“I’m done!”_

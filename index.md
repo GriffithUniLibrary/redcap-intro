@@ -4,7 +4,7 @@ layout: home
 nav_order: 0
 ---
 
-![REDCap Logo](/assets/images/redcap-logo.jpg)
+![REDCap Logo](assets/images/redcap-logo.jpg)
 
 # REDCap @ Griffith
 
