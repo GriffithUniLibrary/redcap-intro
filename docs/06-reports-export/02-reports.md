@@ -34,7 +34,9 @@ parent: Reports
 9. Note also the de-identification options, especially the option to Remove all tagged identifier fields.
 10. Click `Cancel` (don’t export the data).
 
-{% include figure.html img="export-data.png" alt="The REDCap data export options" caption="The REDCap data export options" width="100" %}
+![](../../export-data.png)
+The REDCap data export options
+{: .fs-3 .fw-300 }
 
 If you need to see what changes have been made to the structure or data of your project, use the Logging tool on the Applications List
 {: .info }

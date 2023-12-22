@@ -23,6 +23,14 @@ REDCap considers anything that can capture data to be an `instrument`. Data can 
 
 {% include figure.html img="instruments-forms-surveys.png" alt="Instruments, forms and surveys." width="75%" %}
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 ### Instruments
 
 Think of an instrument as a collection of `fields` (e.g. name, age, etc). You can have any number of instruments in your project. For example, you might want to create one instrument for collecting participants' demographic information, and another instrument for collecting participants' current health indicators (it will become clear later why you might want to separate them).
