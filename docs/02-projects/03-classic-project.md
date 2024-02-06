@@ -2,7 +2,7 @@
 nav_order: 3
 parent: Working with projects
 layout: default
-title: Creating a project
+title: Classic projects
 ---
 
 # Creating a project

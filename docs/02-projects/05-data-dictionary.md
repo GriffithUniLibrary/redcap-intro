@@ -1,7 +1,7 @@
 ---
 Parent: Working with projects
 title: Data dictionaries
-nav_order: 2
+nav_order: 5
 layout: default
 ---
 
@@ -45,4 +45,3 @@ Once you've edited yor data dictionary, you can upload it with the changes you'v
 {% include card.html header="Upload a data dictionary" text=uploaddict %}
 
 {% include figure.html img="new-instrument.png" alt="The project designer screen" caption="A new instrument added to the Project Designer" width="100" %}
- -->
