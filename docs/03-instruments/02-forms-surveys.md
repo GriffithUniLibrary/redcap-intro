@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-title: Instruments, forms, surveys
 layout: default
+title: Instruments, forms, surveys
 parent: Instruments
+nav_order: 1
 ---
 
 # Instruments, forms and surveys

@@ -1,8 +1,8 @@
 ---
-Parent: Working with projects
-title: Longitudinal projects
-nav_order: 4
 layout: default
+title: Longitudinal projects
+parent: Working with projects
+nav_order: 3
 ---
 
 # Longitudinal studies

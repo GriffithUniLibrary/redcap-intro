@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-title: Basic questions
 layout: default
+title: Basic questions
 parent: Instruments
+nav_order: 2
 ---
 
 # Basic question types

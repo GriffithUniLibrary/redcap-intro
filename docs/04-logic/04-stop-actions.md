@@ -1,8 +1,8 @@
 ---
-nav_order: 5
-title: Stop actions
 layout: default
+title: Stop actions
 parent: Logic
+nav_order: 3
 ---
 
 # Stop actions

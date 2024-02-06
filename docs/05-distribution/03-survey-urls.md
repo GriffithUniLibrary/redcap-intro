@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-title: Survey URLs
 layout: default
+title: Survey URLs
 parent: Distribution
+nav_order: 2
 ---
 
 # Survey URLs

@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-title: Survey settings
 layout: default
+title: Survey settings
 parent: Distribution
+nav_order: 1
 ---
 
 # Survey settings

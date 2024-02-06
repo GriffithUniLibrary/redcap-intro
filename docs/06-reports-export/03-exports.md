@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-title: Data export
 layout: default
+title: Exports
 parent: Reports
+nav_order: 1
 ---
 
 # Exporting your data

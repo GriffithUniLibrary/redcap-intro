@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-title: Passthrough parameters
 layout: default
+title: Passthrough parameters
 parent: Advanced topics
+nav_order: 1
 ---
 
 # Passthrough parameters

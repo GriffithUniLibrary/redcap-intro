@@ -1,6 +1,6 @@
 ---
-nav_order: 7
 title: Reports
+nav_order: 6
 layout: default
 has_children: true
 ---

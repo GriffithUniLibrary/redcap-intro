@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-title: Reports
 layout: default
+title: Reports
 parent: Reports
+nav_order: 1
 ---
 
 # Running reports

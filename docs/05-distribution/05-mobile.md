@@ -1,8 +1,8 @@
 ---
-nav_order: 5
-title: Mobile apps
 layout: default
+title: Mobile apps
 parent: Distribution
+nav_order: 4
 ---
 
 # The REDCap mobile apps

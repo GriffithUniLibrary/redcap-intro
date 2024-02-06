@@ -1,8 +1,8 @@
 ---
-nav_order: 4
-parent: Getting started
 layout: default
-title: Setting up a project
+title: My projects
+parent: Project setup
+nav_order: 3
 ---
 
 # Setting up a project

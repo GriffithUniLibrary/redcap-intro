@@ -1,8 +1,8 @@
 ---
-nav_order: 4
-title: Invitations
 layout: default
+title: Invitations
 parent: Distribution
+nav_order: 3
 ---
 
 # Automatic invitations

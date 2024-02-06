@@ -1,6 +1,6 @@
 ---
-nav_order: 4
 title: Instruments
+nav_order: 3
 layout: default
 has_children: true
 ---

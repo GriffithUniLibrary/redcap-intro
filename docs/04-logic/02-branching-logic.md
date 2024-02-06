@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-title: Branching logic
 layout: default
+title: Branching logic
 parent: Logic
+nav_order: 1
 ---
 
 # Branching logic

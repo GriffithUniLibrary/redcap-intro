@@ -1,8 +1,8 @@
 ---
-Parent: Working with projects
-title: Data dictionaries
-nav_order: 5
 layout: default
+title: Data dictionaries
+parent: Working with projects
+nav_order: 4
 ---
 
 # Data dictionaries

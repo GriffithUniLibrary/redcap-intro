@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-parent: Working with projects
 layout: default
 title: Types of project
+parent: Working with projects
+nav_order: 1
 ---
 
 # Types of project

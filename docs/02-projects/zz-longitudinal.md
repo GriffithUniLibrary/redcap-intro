@@ -3,6 +3,7 @@ Parent: Working with projects
 title: Longitudinal studies
 nav_order: 3
 layout: default
+nav_exclude: true
 ---
 
 # Longitudinal projects

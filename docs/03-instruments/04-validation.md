@@ -1,8 +1,8 @@
 ---
-nav_order: 4
-title: Validation
 layout: default
+title: Validation
 parent: Instruments
+nav_order: 3
 ---
 
 # Question validation

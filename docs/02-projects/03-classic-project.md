@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-parent: Working with projects
 layout: default
 title: Classic projects
+parent: Working with projects
+nav_order: 2
 ---
 
 # Creating a project

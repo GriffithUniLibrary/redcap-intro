@@ -1,8 +1,8 @@
 ---
-nav_order: 2
-parent: Getting started
 layout: default
-title: My projects
+title: Access
+parent: Getting started
+nav_order: 1
 ---
 
 # Accessing REDCap and logging in

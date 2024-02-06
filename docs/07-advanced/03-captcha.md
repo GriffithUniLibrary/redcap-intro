@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-title: Adding a CAPTCHA
 layout: default
+title: Adding a CAPTCHA
 parent: Advanced topics
+nav_order: 1
 ---
 
 # Prevent spam submissions with a CAPTCHA

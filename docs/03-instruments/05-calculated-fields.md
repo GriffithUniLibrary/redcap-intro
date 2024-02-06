@@ -1,8 +1,8 @@
 ---
-nav_order: 5
-title: Calculated fields
 layout: default
+title: Calculated fields
 parent: Instruments
+nav_order: 4
 ---
 
 # Calculated fields

@@ -1,6 +1,6 @@
 ---
-nav_order: 2
 title: Working with projects
+nav_order: 2
 layout: default
 has_children: true
 ---

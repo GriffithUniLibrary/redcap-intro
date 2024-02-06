@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-title: TO BE REMOVED
 layout: default
+title: Survey logic
 parent: Logic
+nav_exclude: true
 ---
 
 # Branching logic

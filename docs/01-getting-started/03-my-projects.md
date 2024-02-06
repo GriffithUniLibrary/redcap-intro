@@ -1,8 +1,8 @@
 ---
-nav_order: 3
-parent: Getting started
 layout: default
 title: My projects
+parent: Getting started
+nav_order: 2
 ---
 
 # The My Projects Screen

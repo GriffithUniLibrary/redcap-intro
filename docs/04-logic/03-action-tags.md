@@ -1,8 +1,8 @@
 ---
-nav_order: 4
-title: Action tags
 layout: default
+title: Action tags
 parent: Logic
+nav_order: 2
 ---
 
 # Action tags
