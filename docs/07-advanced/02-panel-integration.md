@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Passthrough parameters
+title: Panel integration
 parent: Advanced topics
 nav_order: 1
 ---
 
-# Passthrough parameters
+# Panel integration
 {: .no_toc }
 
 ## Table of contents
@@ -18,22 +18,27 @@ nav_order: 1
 
 When working with a panel company (a company that provides survey participants for researchers), they usually require you to capture an ID of a participant via a URL parameter, then pass that ID back out to them once the participant has completed the survey or screened them out, so that the participant can be paid for their work. 
 
-## Capturing a value from the URL
+## Capture a URL parameter in an instrument field
 
-First, we need to capture the participant ID from the URL parameter. Parameters are carried in URL in the form:
+### Add a parameter to your survey URL
+
+This method only works with instruments that are enabled as surveys
+{: .note }
+
+REDCap can read a value from the URL that is used to load the survey, then store it in a field in the survey instrument. Parameters are carried in URL in the form:
 
 `https://somedomain.com/page.html?foo=bar`
 
-In this case the parameter is `foo` and the value of that parameter is `bar`. To capture that value in REDCap, we need to make sure that the URL that loads the survey (note: this method only works with instruments that are enabled as surveys) contains the parameter you want. It will be in the form: 
+In the above example, the parameter is `foo` and the value of that parameter is `bar`. To capture that value in REDCap, we need to make sure that the URL that loads the survey contains the parameter you want. It will be in the form:
 
 `https://www151.griffith.edu.au/redcap/surveys/?s=FWXWYEYMLCKXFDJL&psid=1234`
 
-`Psid` can have any value, provided it doesn't contain any spaces or special characters. 
+You can see here that there are two parameters: `s`, which tells REDCap which survey to load, and `psid`, which is the survey participant ID. They are separated by an ampersand (`&`) character. The `psid` is the parameter we want to capture in our survey instrument. It can have any value, provided it doesn't contain any spaces or special characters.
 
-### Create a field with the same field name as the URL parameter
+### Create a field with the same name as the parameter
 
-1. Create a new field of type `Text box`. 
-2. Give it any label you prefer. 
+1. Create a new field of type `Text box`.
+2. Give it any label you prefer.
 3. Set the `Variable name` to **psid** (or whatever the name of your URL parameter is).
 4. Add the action tag `@HIDDEN-SURVEY`. This will make sure the value of `psid` is not displayed on screen. 
 
@@ -41,14 +46,32 @@ In this case the parameter is `foo` and the value of that parameter is `bar`. To
 Adding the @HIDDEN-SURVEY action tag
 {: .fs-3 .fw-300 }
 
-You can now set up the rest of your survey. In each completed record, the field `psid` will contain the value of the URL parameter that was passed into it. 
+When the survey loads, provided the URL contains a value for `psid`, that value will be stored in the instrument field. You can use this to create an return URL that takes the participant back to the panel company (see below).
 
 Unless you create some logic in your instrument to prevent it, it will be possible for participants to complete the survey without providing a value for `psid`. 
 {: .note }
 
-## Creating the outbound URL
+### Create the outbound URL
 
-When participants finish the survey, they need to be directed back to the panel company to show that they have completed the work. The `psid` needs to be embedded in that URL.
+When participants finish the survey, they need to be directed back to the panel company to show that they have completed the survey. The panel company will provide you with a base URL, containing the domain and page. Let's say for this example that the base URL is: 
+
+`https://somepanelcompany.com/projects/end?rst=2`
+
+The `psid` needs to be added to this URL, then it needs to be loaded by the participant once they have completed the survey. The simplest way to do this is to pipe the value for `psid` into the 'Redirect to a URL' option in the Survey Options.
+
+1. Open the `Survey Options` screen.
+2. Scroll to `Survey Termination Options`.
+3. Select the **Redirect to a URL** radio button.
+4. Paste or type the base url into the URL field.
+5. Add the parameter and the piping code to the end of the URL, as follows: `&psid=[psid]` (the square brackets tell REDCap to pipe a value from an instrument field). 
+
+The result should look like: 
+
+`https://somepanelcompany.com/projects/end?rst=2&psid=[psid]`
+
+![](../../assets/images/termination-url.png)
+Piping the PSID field intoto the Redirect URL
+{: .fs-3 .fw-300 }
 
 We need to use an action tag called @CALCTEXT to generate the final URL that participants are directed to when they click the 'Submit' button. We then use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
 
