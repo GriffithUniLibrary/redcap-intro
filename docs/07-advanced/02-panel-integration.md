@@ -163,7 +163,7 @@ To use this method, we will need to place the qualifying questions in one instru
 
 ### Add a single field to record completions
 
-REDCap doesn't give us a way to access the number of completed surveys while we a survey is running. Instead, we are going to count completions manually in order to set the quota.
+REDCap doesn't give us a way to access the number of completed surveys while a survey is running. Instead, we are going to count completions manually in order to set the quota.
 
 1. Open the main research survey instrument
 2. Create a new field with the variable name `completed`.
