@@ -77,10 +77,10 @@ Piping the PSID field intoto the Redirect URL
 
 Some panel companies will expect qualified participants who complete the survey to be redirected to one URL, and prospective participants who do not qualify for the study to be redirected to a different URL. To do this, we need to be able to dynamically build the URL and then send the result to the `Redirect to a URL` option in the `Survey Options` screen.
 
-Note that we are not describing here how to calculate eligibilty, since that will depend on your study requirements. However, you should at least have a hidden Calculated field called **eligibility**. That calculation should resolve to `1` if the participant is eligible, and to `2` if the participant is ineligible.
+We are not describing here how to calculate eligibilty, since that will depend on your study requirements. However, you should at least have a hidden Calculated field called **eligibility**. That calculation should resolve to `1` if the participant is eligible, and to `0` if the participant is ineligible.
 {: .note }
 
-We need to use an action tag called `@CALCTEXT` to generate the final URL that participants are directed to when they click the 'Submit' button. We then use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
+There are three functions we need to use to create the final URL. First, we use an (action tag)[../04-logic/03-action-tags.md] called `@CALCTEXT` to generate the final URL that participants are directed to when they click the 'Submit' button. Inside the `@CALCTEXT` action tag, we use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
 
 ### Code breakdown
 
@@ -127,7 +127,7 @@ Of course, the actual parameters and values are completely up to you, but will p
 
 ![](../../assets/images/ptp-field-endurl.png)
 Creating the endURL field
-{: .fs-3 .fw-300 }
+{: .fs-3 .fw-300 .text-center }
 
 URL shortening and redirection services like bit.ly do not pass through URL parameters unless they were part of the original URL. Since in this case, the parameter needs to be different every time, shortened or customised URLs can't be used.
 {: .warning }
@@ -142,7 +142,7 @@ Once you have tested the logic and made sure that the URL is being composed as y
 
 ![](../../assets/images/ptp-survey-settings.png)
 Adding the End URL to the survey settings.
-{: .fs-3 .fw-300 }
+{: .fs-3 .fw-300 .text-center }
 
 When the participant completes the survey, they will be automatically directed to one of the URLs built by your expression in the [end_url] field.
 
@@ -161,9 +161,34 @@ To use this method, we will need to place the qualifying questions in one instru
 5. Open the main research survey and open the `psid` field. 
 5. Use the Move button at the top of the field options to move the `psid` field into the `Qualifying questions` instrument.
 
-### Add a single field to count completions
+### Add a single field to record completions
 
-1. 
+REDCap doesn't give us a way to access the number of completed surveys while we a survey is running. Instead, we are going to count completions manually in order to set the quota.
+
+1. Open the main research survey instrument
+2. Create a new field with the variable name `completed`.
+3. Set the field type to `Multiple choice (radio buttons)`.
+4. In the `Field label`, type `Confirmation of completion`.
+5. In the `Options` section, enter a single option: `1, I have completed the survey and am satisfied with my responses`.
+6. Make the question required.
+
+![](../../assets/images/completion-confirmation.png)
+Adding the 'Completion confirmation' field.
+{: .fs-3 .fw-300 .text-center }
+
+Once we have done this, we can use the function `[aggregate-sum]` to count how many times a participant has ticked the box. Since they must tick the box to submit their survey, it is a fairly reliable indicator of the number of people who have actually completed the survey.
+
+### Use a calculated field to count the number of completions
+
+1. Open the `Qualifying questions` instrument
+2. Add a new field with the variable name `completed_count`.
+3. Set the field type to `Calculated field`.
+4. In the `Field label`, type `Count of completions`.
+5. In the `Calculation Equation` field, type `[aggregate-sum:completed]` (this adds together all the '1's contained in the `completed` field).
+
+![](../../assets/images/completion-count.png)
+Adding the 'Completion confirmation' field.
+{: .fs-3 .fw-300 .text-center }
 
 If the participant is neither ineligible nor over quota, then they are eligible to complete the survey and they will be progress to the main research survey. 
 {: .note }
