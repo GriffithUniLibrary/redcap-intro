@@ -33,7 +33,7 @@ In the above example, the parameter is `foo` and the value of that parameter is 
 
 `https://www151.griffith.edu.au/redcap/surveys/?s=FWXWYEYMLCKXFDJL&psid=1234`
 
-You can see here that there are two parameters: `s`, which tells REDCap which survey to load, and `psid`, which is the survey participant ID. They are separated by an ampersand (`&`) character. The `psid` is the parameter we want to capture in our survey instrument. It can have any value, provided it doesn't contain any spaces or special characters.
+You can see here that there are two parameters: `s`, which tells REDCap which survey to load, and `psid`, which is the survey participant ID. They are separated by an ampersand (`&`) character. The `psid` is the parameter we want to capture in our survey instrument. Note that it can have any value, provided it doesn't contain any spaces or special characters.
 
 ### Create a field with the same name as the parameter
 
@@ -44,7 +44,7 @@ You can see here that there are two parameters: `s`, which tells REDCap which su
 
 ![](../../assets/images/ptp-field-psid.png)
 Adding the @HIDDEN-SURVEY action tag
-{: .fs-3 .fw-300 }
+{: .fs-3 .fw-300 .text-center }
 
 When the survey loads, provided the URL contains a value for `psid`, that value will be stored in the instrument field. You can use this to create an return URL that takes the participant back to the panel company (see below).
 
@@ -57,11 +57,11 @@ When participants finish the survey, they need to be directed back to the panel 
 
 `https://somepanelcompany.com/projects/end?rst=2`
 
-The `psid` needs to be added to this URL, then it needs to be loaded by the participant once they have completed the survey. The simplest way to do this is to pipe the value for `psid` into the 'Redirect to a URL' option in the Survey Options.
+The `psid` needs to be added to this URL, then it needs to be loaded by the participant once they have completed the survey. The simplest way to do this is to pipe the value for `psid` into the `Redirect to a URL` option in the Survey Options.
 
 1. Open the `Survey Options` screen.
 2. Scroll to `Survey Termination Options`.
-3. Select the **Redirect to a URL** radio button.
+3. Select the `Redirect to a URL` radio button.
 4. Paste or type the base url into the URL field.
 5. Add the parameter and the piping code to the end of the URL, as follows: `&psid=[psid]` (the square brackets tell REDCap to pipe a value from an instrument field). 
 
@@ -71,22 +71,13 @@ The result should look like:
 
 ![](../../assets/images/termination-url.png)
 Piping the PSID field intoto the Redirect URL
-{: .fs-3 .fw-300 }
+{: .fs-3 .fw-300 .text-center }
 
-We need to use an action tag called @CALCTEXT to generate the final URL that participants are directed to when they click the 'Submit' button. We then use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
+## Redirecting disqualified participants to a different URL
 
-1. Create a new field of type `Text field`. 
-2. Give it any name you like.
-3. Set the `Variable name` to **[end_url]**. We will use this later. 
-4. In the `Action tag` section of the field settings, enter the following (note that this is demo code, yours will necessarily be different):
+Some panel companies will expect qualified participants who complete the survey to be redirected to one URL, and prospective participants who do not qualify for the study to be redirected to a different URL. To do this, we need to be able to dynamically build the URL and then send the result to the `Redirect to a URL` option in the `Survey Options` screen.
 
-```
-@CALCTEXT(concat(if([eligibility]=0, 'https://somepanelcompany.com/projects/end?rst=2&psid=', 'https://somepanelcompany.com/projects/end?rst=1&basic=14880&psid='),[psid]))
-```
-
-![](../../assets/images/ptp-field-endurl.png)
-Creating the endURL field
-{: .fs-3 .fw-300 }
+We need to use an action tag called `@CALCTEXT` to generate the final URL that participants are directed to when they click the 'Submit' button. We then use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
 
 ### Code breakdown
 
@@ -118,7 +109,22 @@ basic=14880
 psid={the value of psid}
 ```
 
-Of course, the actual parameters and values are completely up to you, but will probably be supplied to you by the panel company. 
+Of course, the actual parameters and values are completely up to you, but will probably be supplied to you by the panel company.
+
+### Putting it all together
+
+1. Create a new field of type `Text field`. 
+2. Give it any name you like. We are going to hide it from the participant.
+3. Set the `Variable name` to **end_url**. We will use this later.
+4. In the `Action tag` section of the field settings, enter the following (note that this is demo code, yours will necessarily be different):
+
+```
+@CALCTEXT(concat(if([eligibility]=0, 'https://somepanelcompany.com/projects/end?rst=2&psid=', 'https://somepanelcompany.com/projects/end?rst=1&basic=14880&psid='),[psid]))
+```
+
+![](../../assets/images/ptp-field-endurl.png)
+Creating the endURL field
+{: .fs-3 .fw-300 }
 
 URL shortening and redirection services like bit.ly do not pass through URL parameters unless they were part of the original URL. Since in this case, the parameter needs to be different every time, shortened or customised URLs can't be used.
 {: .warning }
