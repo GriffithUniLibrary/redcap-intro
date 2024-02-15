@@ -77,12 +77,15 @@ Piping the PSID field intoto the Redirect URL
 
 Some panel companies will expect qualified participants who complete the survey to be redirected to one URL, and prospective participants who do not qualify for the study to be redirected to a different URL. To do this, we need to be able to dynamically build the URL and then send the result to the `Redirect to a URL` option in the `Survey Options` screen.
 
+Note that we are not describing here how to calculate eligibilty, since that will depend on your study requirements. However, you should at least have a hidden Calculated field called **eligibility**. That calculation should resolve to `1` if the participant is eligible, and to `2` if the participant is ineligible.
+{: .note }
+
 We need to use an action tag called `@CALCTEXT` to generate the final URL that participants are directed to when they click the 'Submit' button. We then use the `concat` function to concatenate the base URL with the relevant parameters, and the `if` function to decide which parameters should be added. 
 
 ### Code breakdown
 
 #### Calctext
-The `@CALCTEXT` action tag allows REDCap to perform text operations without treating the text as a value. We need to do this to build the URL. 
+The `@CALCTEXT` action tag allows REDCap to perform text operations without treating the text as a value. We need to do this to build the URL.
 
 #### Concat
 The `concat` function concatenates strings. It uses the pattern: `concat(string1,string2,string3)` to create a final string of the form `string1string2string3`. 
@@ -129,16 +132,38 @@ Creating the endURL field
 URL shortening and redirection services like bit.ly do not pass through URL parameters unless they were part of the original URL. Since in this case, the parameter needs to be different every time, shortened or customised URLs can't be used.
 {: .warning }
 
-## Add the customised URL to the survey settings
+### Add the URL to the survey settings
 
 Once you have tested the logic and made sure that the URL is being composed as you want, you can add it to the survey settings. 
 1. Open the `Survey settings` for the survey you are editing.
 2. Scroll down to `Survey termination options`.
 3. Select the `Redirect to a URL` radio button.
-4. Enter the Variable name of the URL that you have composed. 
+4. Enter the Variable name of the URL that you have composed (we used **end_url** above).
 
 ![](../../assets/images/ptp-survey-settings.png)
 Adding the End URL to the survey settings.
 {: .fs-3 .fw-300 }
 
-When the participant completes the survey, they will be automatically directed to one of the URLs built by your expression in the [end_url] field. 
+When the participant completes the survey, they will be automatically directed to one of the URLs built by your expression in the [end_url] field.
+
+## Adding a quota redirect
+
+In cases where the survey is over quota, the panel company may also want participants to be redirected to a third URL. Normally, Stop Actions are used to handle quotas in REDCap. However, since REDCap's `Survey Settings` page doesn't allow piping to be used in the `Options related to Survey Stop Actions`, we need to get a little creative. Instead, we will count survey completions manually and use the same technique as above to dynamically create different URLs depending on whether the participant is ineligible or over quota.
+
+### Create a separate instrument for qualifying questions
+
+To use this method, we will need to place the qualifying questions in one instrument, and the research survey questions in another.
+
+1. Open the `Online Designer`.
+2. Click `Create a new instrument from scratch`.
+3. Name the instrument `Qualifying questions`.
+4. Use the reordering arrows to the left of each instrument to move the Qualifying questions instrument above the main research survey. 
+5. Open the main research survey and open the `psid` field. 
+5. Use the Move button at the top of the field options to move the `psid` field into the `Qualifying questions` instrument.
+
+### Add a single field to count completions
+
+1. 
+
+If the participant is neither ineligible nor over quota, then they are eligible to complete the survey and they will be progress to the main research survey. 
+{: .note }
