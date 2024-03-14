@@ -10,15 +10,7 @@ nav_order: 0
 
 {: .no_toc }
 
-## Table of contents
-
-{: .no_toc .text-delta }
-
-{: .toc }
-
-## Topic and aims
-
-This resource provides an introduction to using the REDCap (REsearch Data Capture) tool at Griffith University. It may be used on its own or in conjunction with the Griffith RED workshop 'Introduction to REDcap@Griffith'.
+This resource provides an introduction to using the REDCap (REsearch Data Capture) tool at Griffith University. It may be used on its own or in conjunction with the Griffith RED workshop 'Introduction to REDCap@Griffith'.
 
 The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. It is not intended to act as comprehensive documentation. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
 {:. .note }
@@ -44,10 +36,6 @@ To successfully complete the activities in this resource you will need:
 - A modern browser
 - Access to the Internet
 
-We also assume that you have the following level of understanding:
-
-- Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
-
 ## Using this site
 
 This site contains a mixture of information and activities. Information connected with the live workshops offered by Griffith are marked with the
@@ -68,7 +56,7 @@ label.
 
 ## Plan your project on paper first!
 
-A significant amount of careful planning and design needs to happen before you start building your survey. The stronger your preparation, the more credible your methodology will be.
+A significant amount of careful planning and design needs to happen before you start building your survey.
 {:. .warning }
 
 Your **preparation** phase should have included:
