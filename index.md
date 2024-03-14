@@ -30,21 +30,20 @@ The aim of this workshop is to get you up and running with REDCap quickly. We ai
 ## Using this site
 
 This site contains a mixture of information and activities. 
-Information connected with the live workshops offered by Griffith are marked with the 
+Information connected with the live workshops offered by Griffith are marked with
 {: .d-inline } 
 In workshop 
 {: .label .label-green } 
-label.
-Additional information that's not included in the workshop is marked with the 
+
+Additional information that's not included in the workshop is marked with
 {: .d-inline-block } 
 Extra info 
 {: .label .label-purple } 
-label.
-Activities are markes by the 
+
+Activities are markes with
 {: .d-inline-block } 
 Activity 
 {: .label } 
-label.
 
 ## Plan your project on paper first!
 
