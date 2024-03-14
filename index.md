@@ -33,11 +33,13 @@ This site contains a mixture of information and activities.
 Information connected with the live workshops offered by Griffith are marked with the 
 {: .d-inline } 
 In workshop 
-{: .label .label-green } label.
+{: .label .label-green } 
+label.
 Additional information that's not included in the workshop is marked with the 
 {: .d-inline-block } 
 Extra info 
-{: .label .label-purple } label.
+{: .label .label-purple } 
+label.
 Activities are markes by the 
 {: .d-inline-block } 
 Activity 
