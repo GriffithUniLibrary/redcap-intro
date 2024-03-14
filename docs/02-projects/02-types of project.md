@@ -6,16 +6,8 @@ nav_order: 1
 ---
 
 # Types of project
-{: .no_toc }
 
 There are two basic project types in REDCap, 'classic' and 'longitudinal'.
-{: .fs-6 .fw-300 }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## Classic projects
 
@@ -23,4 +15,4 @@ A classic project is a set of data collection instruments, designed for a single
 
 ## Longitudinal projects
 
-A longitudinal study captures data from the same cohort over time, usually at defined points. It may also track more than one cohort, for example a control group and an intervention group.
+A longitudinal study captures data from the same cohort over time, usually at defined points. It may also track more than one cohort, for example, a control group and an intervention group.
