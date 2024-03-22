@@ -12,11 +12,11 @@ logo: "/assets/images/gu_logo.png"
 
 # Aux links for the upper right navigation
 aux_links:
-  "GU Library Workshops":
-    - "//griffithunilibrary.github.io"
+  "GU Library Website":
+    - "www.griffith.edu.au/library"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # To disable support for mermaid diagrams (https://mermaid.js.org),
 # comment out the `mermaid` and `version` keys below
@@ -31,7 +31,7 @@ mermaid:
 # Define callout colours and titles
 callouts:
   warning:
-    title: Warning
+    title: Remember
     color: red
   info:
     title: Info
@@ -43,5 +43,5 @@ callouts:
     title: Important
     color: yellow
   note:
-    title: note
+    title: Note
     color: purple
