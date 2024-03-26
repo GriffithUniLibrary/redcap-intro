@@ -22,7 +22,7 @@ In REDCap, the `text box` question type can be used in several ways: to capture 
 
 ### Add a basic text field
 
-1. Click on `My First Instrument`
+1. Click on `Demographic data`
 2. Click `Add Field`
 3. Choose `Text Box`
 4. In the `Field` Label, type *Family Name* (this gets displayed to your participants)
@@ -31,8 +31,6 @@ In REDCap, the `text box` question type can be used in several ways: to capture 
 7. In the `Identifier?` Field, select “Yes”. (Identifiable information can be flagged to restrict it from export.)
 8. Click `Save`.
 9. Repeat the process to add the field Given Name (name_given)
-
-{% include accordion.html title1="Activity: Add a basic text field" text1=buildform open=true %}
 
 ## Multiple choice
 
