@@ -20,7 +20,7 @@ We will use the first instrument to try out some basic question types by adding 
 
 In REDCap, the `text box` question type can be used in several ways: to capture short and long written responses, but also to capture information like numbers and dates. Here we will just capture our participant's name.
 
-### Add a basic text field
+{% include accordion.html title1="Activity: Add a basic text field" text1=buildform open=true %}
 
 1. Click on `Demographic data`
 2. Click `Add Field`
