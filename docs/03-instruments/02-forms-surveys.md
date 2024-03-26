@@ -43,17 +43,17 @@ If you want to capture data for your project by asking participants to fill out 
 
 It can be helpful to break your data collection into separate instruments. For example, you may only need to collect demographic data from your participants once, whereas you might wish to collect health data from them several times. Alternatively, you might want to present participants with different instruments based on their responses to demographic questions.
 
-Here, we're going to create two instruments: one for *Demographic questions*, and one to collect *Baseline Health Data*.
+Here, we're going to create two instruments: one for *Demographic data*, and one to collect *Baseline health data*.
 
 ### Rename an instrument
 
-1. Under `Project Home and Design`, click `Designer`
-2. Under `Data Collection Instruments`, you'll see one instrument in the list, called *My First Instrument*.
+1. Click `Online Designer` on the Project Setup tab OR click `Designer` under `Project Home and Design`
+2. Under `Data Collection Instruments`, you'll see one instrument in the list called *Form 1*.
 3. Click on `Choose actions` under `Instrument actions` and select `Rename`.
 4. Name the instrument *Demographic data*.
 
 ### Create a new instrument
 
-1. Click `Create` a new instrument from scratch.
+1. Click `Create` to create a new instrument from scratch.
 2. Click `Add instrument here`
-3. Name your instrument *Baseline Health Data*.
+3. Name your instrument *Baseline health Data*.
