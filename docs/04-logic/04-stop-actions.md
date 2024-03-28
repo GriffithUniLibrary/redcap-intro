@@ -11,15 +11,6 @@ nav_order: 3
 You can end the survey automatically based on a participant’s answers to a question.
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-Stop Actions cannot be tested until the survey is published
-{: .highlight }
-
 ### Create a Stop Action
 {: .d-inline-block }
 Activity
@@ -35,3 +26,6 @@ Activity
 
 Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions.
 {:. .note }
+
+Stop Action cannot be tested in the Preview mode.
+{: .highlight }
