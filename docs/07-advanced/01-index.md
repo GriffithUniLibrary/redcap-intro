@@ -5,7 +5,4 @@ layout: default
 has_children: true
 ---
 
-# Survey logic
-
-1. TOC
 {:toc}
