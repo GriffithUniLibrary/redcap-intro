@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding a CAPTCHA
-parent: Advanced topics
+parent: Special topics
 nav_order: 1
 ---
 
