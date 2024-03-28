@@ -2,7 +2,7 @@
 layout: default
 title: Panel integration
 parent: Advanced topics
-nav_order: 1
+nav_exclude: true
 ---
 
 # Panel integration
