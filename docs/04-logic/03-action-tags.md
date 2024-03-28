@@ -2,7 +2,7 @@
 layout: default
 title: Action tags
 parent: Logic
-nav_order: 2
+nav_exclude: true
 ---
 
 # Action tags
