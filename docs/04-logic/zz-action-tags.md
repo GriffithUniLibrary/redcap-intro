@@ -3,6 +3,7 @@ layout: default
 title: Action tags
 parent: Logic
 nav_exclude: true
+toc_exclude: true
 ---
 
 # Action tags
