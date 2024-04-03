@@ -5,16 +5,10 @@ parent: Distribution
 nav_order: 3
 ---
 
-# Automatic invitations
+# Survey invitations
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-To automatically invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
+To invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
 
 Create a participant list and send invitations
 {: .d-inline-block }
