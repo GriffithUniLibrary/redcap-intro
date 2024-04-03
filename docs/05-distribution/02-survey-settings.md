@@ -7,93 +7,17 @@ nav_order: 1
 
 # Survey settings
 
-{: .no_toc }
-
-## Table of contents
-
-{: .no_toc .text-delta }
-
-1. TOC
-   {:toc}
-
 ## Survey settings
 
 You can set the overall look and feel, as well as the behaviour, of your survey before sending it out.
-Many of the options are either self-explanatory or beyond the scope of this workshop. We will not go through every option.
+You need to enable the instrument as survey first before `Survey Settings` becomes available. We have enabled Survey in the main project settings earlier, but that doesn’t automatically make each instrument a survey.
 
-### Set auto-continue option
+## Enabling your survey
 
-You can end the survey automatically based on a participant’s answers to a question.
-{: .d-inline-block }
-Activity
-{: .label }
-
-1. Click `Return` to the list of instruments.
-2. Click `Survey settings` alongside the _Demographic data_ instrument.
-3. Under `Question Display Format` you have the option to display questions all on one page or on separate pages using section headers as dividers.
-4. Note that the survey can be given a `Survey Expiration date`.
-5. The `Save and Return Later` option creates a ‘return code’ that allows participants to return to a partially completed survey.
-6. Check `Auto-continue` to next survey.
-{: .code-example }
-<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
-
-Checking Auto-continue to next survey will make sure that once the participant has completed the `demographics` survey, they are automatically redirected to the `Baseline Health Data` survey. If you don’t use this option, you would need to send participants a separate link to the second survey.
-{: .info }
-
-## Distributing your survey
-
-### Enabling your survey
-
-You’ll notice that there will be a green button under each survey reading `Enable`. Tip: If you don’t see it, you need to go to your Project Setup and select Use surveys in this project.
+You’ll notice that there will be a green button under each survey reading `Enable`. 
+Tip: If you don’t see it, you need to go to your Project Setup and select Use surveys in this project.
 
 {% include figure.html img="my-instruments.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
-
-Distributing a public survey URL
-{: .d-inline-block }
-Activity
-{: .label }
-
-1. Click `Survey Distribution Tools` in the left-hand navigation.
-2. Note that the `Public Survey URL` can be copied and pasted into an email or web page.
-3. More memorable URLS can be created using `Create Custom Survey Link`. They may only contain letters, numbers and underscores.
-4. Click `Create Custom Survey Link` and type in **RCTraining*[YYYY]*[MM]\_[YB]** where [YYYY] is the year, [MM] is the month and [YB] are your initials.
-5. Click `Submit`.
-6. You can use a QR code to have people’s smartphones automatically load the survey URL.
-7. Click `Survey Access Code` or QR Code.
-8. Try pointing your smartphone camera at the QR code to see the survey load.
-9. The QR code can be dragged and dropped into a document, email or web page, or it can be saved as an image to be used later.
-{: .code-example }
-<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
-
-### Automatic invitations
-
-To automatically invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
-
-Create a participant list and send invitations
-{: .d-inline-block }
-Activity
-{: .label }
-
-1. In `Survey Distribution Tools`, click the `Participant List` tab.
-2. Click `Add Participants`.
-3. Enter your own email address.
-4. Click the `Add Participants` button.
-5. Click `Compose Survey Invitations`.
-6. Check the `Enable Reminders` box.
-7. Select _Send every 2 days_.
-8. Select _Send Only Once_. This will send one reminder after two days, only if the participant hasn’t yet completed the survey.
-9. In the `Subject Line`, type _Invitation to participate in vaccine efficacy trial_. Specific subject lines are less likely to be flagged as spam than generic ones.
-10. The email may be edited and formatted with common text formatting options.
-11. Check that the email address in the `Participant List` on the right column is checked.
-12. Click `Send Invitations`.
-{: .code-example }
-<!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
-
-### The REDCap mobile app
-
-REDCap offers a mobile app on iOS and Android. The mobile app allows for mobile, offline data input. That is, you don’t need mobile reception to use it. This can be ideal for environmental research or remote-area social research.
-
-We won’t review it in this session, but you can download it for free and try it out.
 
 ### Moving your project to production status
 
