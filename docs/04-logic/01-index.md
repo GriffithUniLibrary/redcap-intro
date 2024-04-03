@@ -1,6 +1,6 @@
 ---
 title: Logic
-nav_order: 4
+nav_order: 2
 layout: default
 has_children: true
 ---
