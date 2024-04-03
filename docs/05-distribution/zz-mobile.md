@@ -3,6 +3,7 @@ layout: default
 title: Mobile apps
 parent: Distribution
 nav_exclude: true
+toc_exclude: true
 ---
 
 # The REDCap mobile apps
