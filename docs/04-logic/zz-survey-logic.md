@@ -3,6 +3,7 @@ layout: default
 title: Survey logic
 parent: Logic
 nav_exclude: true
+toc_exclude: true
 ---
 
 # Branching logic
