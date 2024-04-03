@@ -2,7 +2,7 @@
 layout: default
 title: Mobile apps
 parent: Distribution
-nav_order: 4
+nav_exclude: true
 ---
 
 # The REDCap mobile apps
