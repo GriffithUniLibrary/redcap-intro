@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Access
+title: REDCap access
 parent: Getting started
 nav_order: 1
 ---
