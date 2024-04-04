@@ -10,11 +10,11 @@ nav_order: 1
 
 ## Where to find REDCap
 
-The **Griffith REDCap instance** is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). 
+The **Griffith REDCap instance** is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/){:target="_blank" rel="noopener noreferrer"}. 
 
 Alternatively, you can navigate to the REDCap link from:
-- [**eResearch Services website**](https://www.griffith.edu.au/eresearch-services/resources) > Researcher Software and Tools > click **REDCap**, or
-- [**Library website**](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture) > Create and capture > REDCap > click **REDCap at Griffith**
+- [**eResearch Services website**](https://www.griffith.edu.au/eresearch-services/resources){:target="_blank" rel="noopener noreferrer"} > Researcher Software and Tools > click **REDCap**, or
+- [**Library website**](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture){:target="_blank" rel="noopener noreferrer"} > Create and capture > REDCap > click **REDCap at Griffith**
 
 You'll see a welcome screen with a place to enter your username and password. Use your Griffith s-number and password to enter.
 
