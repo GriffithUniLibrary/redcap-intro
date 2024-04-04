@@ -2,7 +2,7 @@
 layout: default
 title: Create a project
 parent: Working with projects
-nav_order: 2
+nav_order: 1
 ---
 
 # Create a project
