@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My projects
+title: REDCap interface
 parent: Getting started
 nav_order: 2
 ---
