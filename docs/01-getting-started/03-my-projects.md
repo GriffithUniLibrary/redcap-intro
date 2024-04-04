@@ -5,22 +5,17 @@ parent: Getting started
 nav_order: 2
 ---
 
-# The My Projects Screen
+# The REDCap interface
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+There are tabs along the top of the screen. The landing page is either `Home` or `My Projects`.
 
-1. TOC
-{:toc}
-
-The `My Projects` screen shows any projects you are working on or have access to. Along the top of the screen is the Home Menu. 
-
-## Home Menu
+{% include figure.html img="my-projects.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
 
 | Item | What it does |
 | -----|
-| My Projects | The page you are looking at |
+| Home | Provides an overview of REDCap features and Support Request link. |
+| My Projects | Shows a list of projects you have access to |
 | New Project | Creates a new project |
 | Help & FAQ | REDCap has an extensive, searchable help section |
 | Send-It | Secure file transfer application for sending recipients files up to 35 MB in size |
@@ -28,4 +23,3 @@ The `My Projects` screen shows any projects you are working on or have access to
 | My Profile | Set preferences relating to name, email address and regional number formats |
 {:.table}
 
-{% include figure.html img="my-projects.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
