@@ -27,24 +27,6 @@ The aim of this workshop is to get you up and running with REDCap quickly. We ai
 
 {:.table}
 
-## Using this site
-
-This site contains a mixture of information and activities. 
-Information connected with the live workshops offered by Griffith are marked with
-{: .d-inline } 
-In workshop 
-{: .label .label-green } 
-
-Additional information that's not included in the workshop is marked with
-{: .d-inline-block } 
-Extra info 
-{: .label .label-purple } 
-
-Activities are markes with
-{: .d-inline-block } 
-Activity 
-{: .label } 
-
 ## Plan your project on paper first!
 
 A significant amount of careful planning and design needs to happen before you start building your survey.
@@ -63,5 +45,3 @@ Your **design** phase should have included:
 - Question design
 - Question validation
 - Sampling design
-
-See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
