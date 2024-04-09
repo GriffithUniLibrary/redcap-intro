@@ -6,11 +6,14 @@ nav_order: 0
 
 ![REDCap Logo](assets/images/redcap-logo.jpg)
 
-# REDCap @ Griffith
+# REDCap at Griffith
 
 This resource provides an introduction to using the REDCap (REsearch Data Capture) tool at Griffith University. It may be used on its own or in conjunction with the Griffith RED workshop 'Introduction to REDCap@Griffith'.
 
 The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. It is not intended to act as comprehensive documentation. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
+
+For background information about REDCap, please visit [projectredcap.org](https://projectredcap.org/).
+
 {:. .note }
 
 ## Learning objectives
@@ -22,7 +25,7 @@ The aim of this workshop is to get you up and running with REDCap quickly. We ai
 | Create a data collection instrument                          |
 | Create basic questions and apply validation                  |
 | Control question visibility using branching logic            |
-| Publish and distribute your project                          |
+| Distribute your project                                      |
 | Locate REDCap support resources                              |
 
 {:.table}
