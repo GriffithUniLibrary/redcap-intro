@@ -12,7 +12,7 @@ This resource provides an introduction to using the REDCap (REsearch Data Captur
 
 The aim of this workshop is to get you up and running with REDCap quickly. We aim to cover the fundamentals so you can start to use the service. It is not intended to act as comprehensive documentation. We've left out advanced topics like scheduled invitations, randomisation and longitudinal study design.
 
-For background information about REDCap, please visit [projectredcap.org](https://projectredcap.org/).
+For background information about REDCap, please visit [projectredcap.org](https://projectredcap.org/){:target="_blank" rel="noopener noreferrer"}.
 
 {:. .note }
 
