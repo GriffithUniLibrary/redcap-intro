@@ -15,8 +15,7 @@ You can use calculated fields to determine values based on the values of previou
 Calculated fields cannot be tested in the Preview mode.
 {:. .warning }
 
-Activity 
-{: .label } 
+Activity {: .label } 
 ## Calculate a participant’s age
 
 1. Click `Add field`.
