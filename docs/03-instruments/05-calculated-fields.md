@@ -8,19 +8,15 @@ nav_order: 4
 # Calculated fields
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 A calculated field can use previously submitted answers to calculate and display a value.
 
 You can use calculated fields to determine values based on the values of previous fields. Here we will determine the participant’s age and body mass index (BMI) based on their date of birth and their height and weight.
 
-Calculated fields cannot be tested until the survey is published.
+Calculated fields cannot be tested in the Preview mode.
 {:. .warning }
 
+Activity 
+{: .label } 
 ## Calculate a participant’s age
 
 1. Click `Add field`.
