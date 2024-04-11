@@ -36,12 +36,16 @@ If you want to capture data for your project by asking participants to fill out 
 
 It can be helpful to break your data collection into separate instruments. For example, you may only need to collect demographic data from your participants once, whereas you might wish to collect health data from them several times. Alternatively, you might want to present participants with different instruments based on their responses to demographic questions.
 
-For our demonstration in the workshop, we will create only one instrument called *Demographic information*.
+For our demonstration in the workshop, we will create only one instrument called *Demographic questions*.
+
+{: .d-inline-block } 
+Activity 
+{: .label } 
 
 ### Rename an instrument
 
-1. Click `Online Designer` on the Project Setup tab OR click `Designer` under `Project Home and Design`
+1. Click `Online Designer` on the Project Setup tab OR click `Designer` under `Project Home and Design`.
 2. Under `Data Collection Instruments`, you'll see one instrument in the list called *Form 1*.
 3. Click on `Choose actions` under `Instrument actions` and select `Rename`.
-4. Name the instrument *Demographic data*.
-5. Click 'Enable' for Enable as survey.
+4. Name the instrument *Demographic questions*.
+5. Click `Enable` for Enable as survey.
