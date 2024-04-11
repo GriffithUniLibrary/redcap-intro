@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survey logic
-parent: Logic
+parent: Logicexclude
 nav_exclude: true
 toc_exclude: true
 ---
