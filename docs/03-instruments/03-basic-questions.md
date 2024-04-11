@@ -8,29 +8,26 @@ nav_order: 2
 # Basic question types
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-We will use the first instrument to try out some basic question types by adding some demographic questions.
+We will use the instrument to try out some basic question types by adding some demographic questions.
 
 ## Text box
 
-In REDCap, the `text box` question type can be used in several ways: to capture short and long written responses, but also to capture information like numbers and dates. Here we will just capture our participant's name.
+In REDCap, the `text box` question type can be used in several ways: to capture short written responses and information like numbers and dates. Here, we will just capture our participant's name.
 
-{% include accordion.html title1="Activity: Add a basic text field" text1=buildform open=true %}
+{: .d-inline-block } 
+Activity 
+{: .label } 
+### Add a basic text field
 
-1. Click on `Demographic data`
+1. Click on `Demographic question` to open it
 2. Click `Add Field`
 3. Choose `Text Box`
-4. In the `Field` Label, type *Family Name* (this gets displayed to your participants)
-5. In the `Field` Name, type *name_family* (this gets stored as a column header in your database)
+4. In the `Field` Label, type *First Name* (this gets displayed to your participants)
+5. In the `Field` Name, type *first_name* (this gets stored as a column header in your database)
 6. In the `Required` field, select “Yes”.
 7. In the `Identifier?` Field, select “Yes”. (Identifiable information can be flagged to restrict it from export.)
 8. Click `Save`.
-9. Repeat the process to add the field Given Name (name_given)
+9. Repeat the process to add the field Last Name (name_last)
 
 ## Multiple choice
 
@@ -39,18 +36,24 @@ Multiple choice fields are of two kinds:
 - `Radio buttons` and `drop down lists` only allow the participant to select a single option from a list. 
 - `Checkboxes` allow participants to select any number of items from a list.
 
+{: .d-inline-block } 
+Activity 
+{: .label } 
 ### Add a radio button question
 
 1. Click `Add field`
 2. Choose `Multiple choice - Radio buttons` from the drop-down list.
 3. Type *Gender* in the `Field` Label and *gender* in the `Variable Name`.
-4. Add the following options: *Male, Female, Intersex, Unspecified*.
+4. Add the following options: *Male, Female, Intersex, Prefer not to say*.
 
 {:. .note-title}
 > About raw values
 >
-> The ‘raw value’, which appears before the column, is the value that gets recorded to your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description.
+> The ‘raw value’, which appears before the column, is the value that gets recorded in your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description.
 
+{: .d-inline-block } 
+Activity 
+{: .label } 
 ### Add a checkbox question
 
 3. Click `Add field`.
@@ -72,9 +75,6 @@ REDCap automatically adds numeric Raw Values for each choice. Raw values are wha
 ___
 
 ## Dealing with identifiable information
-
-Not in workshop
-{: .label .label-yellow }
 
 REDCap allows you to automatically remove personally identifiable information from reports and exported data. Any field can be marked as an identifier.
 
