@@ -2,7 +2,7 @@
 layout: default
 title: Stop actions
 parent: Logic
-nav_order: 2
+nav_order: 1
 ---
 
 # Stop actions
@@ -11,10 +11,11 @@ nav_order: 2
 You can end the survey automatically based on a participant’s answers to a question.
 {: .fs-6 .fw-300 }
 
-### Create a Stop Action
 {: .d-inline-block }
 Activity
 {: .label }
+### Create a Stop Action
+
 > 1. Click `Return to list of instruments`.
 > 2. Choose the _Baseline Health Data_ instrument.
 > 3. Scroll to the question that reads: Do you suffer from any of the following conditions?
