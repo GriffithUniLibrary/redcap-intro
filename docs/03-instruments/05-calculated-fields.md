@@ -15,13 +15,12 @@ You can use calculated fields to determine values based on the values of previou
 Calculated fields cannot be tested in the Preview mode.
 {:. .warning }
 
-Activity {: .label } 
 ## Calculate a participant’s age
 
 1. Click `Add field`.
 2. Choose *Calculated Field* for the `Field Type`.
-3. In the `Field Label`, type Y_our age at the start of this project_.
-4. In the `Variable Name`, type **age_at_start**.
+3. In the `Field Label`, type Your age.
+4. In the `Variable Name`, type *age*.
 5. In the `Calculation Equation`, type: `datediff([dob],"2020-01-01","y")`
 
 REDCap understands terms like ‘now’ and ‘today’, but they are not recommended for calculating age because they will lead to variation in values over time. This is why we select a set date such as January 1 or the project start date.
@@ -34,7 +33,7 @@ Here, we are going to use the 'height' and 'weight' values provided by the user 
 1. Click `Add field`.
 2. Choose `Calculated Field` for the `Field Type`.
 3. In the `Field Label`, type Your Body Mass Index (BMI).
-4. In the `Variable Name`, type bmi.
+4. In the `Variable Name`, type *bmi*.
 5. In the `Calculation Equation`, type: `[weight]*10000/([height]*[height])`.
 
 REDCap understands many calculation functions you might be familiar with from Excel, including IF() statements.
