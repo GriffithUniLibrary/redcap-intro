@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mobile apps
-parent: Distributio
+parent: Distributionexclude
 nav_exclude: true
 toc_exclude: true
 ---
