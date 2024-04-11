@@ -14,6 +14,14 @@ In this step, you decide:
 
 You can modify these settings anytime during your project development.
 
+{: .d-inline-block } 
+Activity 
+{: .label } 
+
+1. Go to `Main project settings` on Project Setup.
+2. Click `Enable` for the option of 'Use surveys in this project'.
+3. Leave the other two options as they are.
+
 ## Types of project
 
 There are two basic project types in REDCap, 'classic' and 'longitudinal'.
