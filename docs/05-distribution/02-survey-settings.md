@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Survey settings
-parent: Logic
-nav_order: 3
+parent: Distributionexclude
+nav_exclude: true
+toc_exclude: true
 ---
 
 # Survey settings
