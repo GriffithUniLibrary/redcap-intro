@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Invitations
+title: Participant list
 parent: Distribution
 nav_order: 3
 ---
 
-# Survey invitations
+# Participant list
 {: .no_toc }
-
 To invite participants via email you need to create a participant list. The participant list just consists of email addresses—no other details are needed.
 
-Create a participant list and send invitations
+## Create a participant list and send invitations
 {: .d-inline-block }
 Activity
 {: .label }
