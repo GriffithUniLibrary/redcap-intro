@@ -9,12 +9,12 @@ nav_order: 1
 {: .no_toc }
 
 You can end the survey automatically based on a participant’s answers to a question.
-{: .fs-6 .fw-300 }
 
+
+### Create a Stop Action
 {: .d-inline-block }
 Activity
 {: .label }
-### Create a Stop Action
 
 > 1. Click `Return to list of instruments`.
 > 2. Choose the _Baseline Health Data_ instrument.
@@ -25,8 +25,5 @@ Activity
 {: .code-example }
 <!-- The {: .code-example } snippet causes the paragraph above to be enclosed in a box. -->
 
-Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions.
-{:. .note }
-
 Stop Action cannot be tested in the Preview mode.
-{: .highlight }
+{: .note }
