@@ -62,10 +62,10 @@ Activity
 6. In the `Variable Name`, type **pre_conditions**.
 7. In the `Choices Field`, type the following on separate lines:
 
-- *Diabetes*
-- *Cardiovascular disease*
-- *Asthma*
-- *Anxiety or depression*
+    - *Diabetes*
+    - *Cardiovascular disease*
+    - *Asthma*
+    - *Anxiety or depression*
 
 8. In the `Required` field, click *Yes*.
 
