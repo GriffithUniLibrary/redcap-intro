@@ -41,7 +41,6 @@ For our demonstration in the workshop, we will create only one instrument called
 {: .d-inline-block } 
 Activity 
 {: .label } 
-
 ### Rename an instrument
 
 1. Click `Online Designer` on the Project Setup tab OR click `Designer` under `Project Home and Design`.
