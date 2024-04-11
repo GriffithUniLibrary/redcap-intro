@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Adding a CAPTCHA
-parent: Special topics
+parent:
 nav_order: 1
+nav_exclude: true
+toc_exclude: true
 ---
 
 # Prevent spam submissions with a CAPTCHA
