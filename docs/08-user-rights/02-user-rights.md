@@ -7,7 +7,8 @@ layout: default
 # User rights
 {: .no_toc }
 
-This app is used to grant users access to this project and manage their user access privileges. In the box below, you may add users and manage ther access privileges and the table at the bottom allows you to modify any existing user or role in the project and view a glimpse of their user privileges.
+This app is used to grant users access to this project and manage their user access privileges. In the box below, you may add users and manage ther access privileges and the table at the bottom allows you to modify any existing user or role in the project and view a glimpse of their user privileges. 
+{: .fs-6 .fw-300 }
 
 ## Access user rights module
 {: .d-inline-block } 
