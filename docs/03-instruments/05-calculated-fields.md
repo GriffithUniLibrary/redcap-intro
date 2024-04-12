@@ -12,10 +12,10 @@ A calculated field can use previously submitted answers to calculate and display
 
 You can use calculated fields to determine values based on the values of previous fields. Here we will determine the participant’s age and body mass index (BMI) based on their date of birth and their height and weight.
 
-Calculated fields cannot be tested in the Preview mode.
-{:. .warning }
-
 ## Calculate a participant’s age
+{: .d-inline-block } 
+Activity 
+{: .label } 
 
 1. Click `Add field`.
 2. Choose *Calculated Field* for the `Field Type`.
@@ -27,6 +27,9 @@ REDCap understands terms like ‘now’ and ‘today’, but they are not recomm
 {:. .note }
 
 ## Calculate a participant’s BMI
+{: .d-inline-block } 
+Extra activity
+{: .label } 
 
 Here, we are going to use the 'height' and 'weight' values provided by the user to calculate their body mass index (BMI).
 
@@ -38,3 +41,6 @@ Here, we are going to use the 'height' and 'weight' values provided by the user 
 
 REDCap understands many calculation functions you might be familiar with from Excel, including IF() statements.
 {:. .note }
+
+Calculated fields cannot be tested in the Preview mode.
+{:. .warning }
