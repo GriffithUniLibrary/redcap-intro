@@ -10,10 +10,10 @@ nav_order: 3
 
 We can apply validation to certain types of text entries. For example, we can ensure that a phone number or email address is correctly formatted.
 
+## Validate postcodes
 {: .d-inline-block } 
 Activity 
-{: .label } 
-### Validate postcodes
+{: .label }
 
 1. Click `Add field`.
 2. Choose `Text box`.
@@ -22,11 +22,10 @@ Activity
 5. In the `Field` note field, type *“Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”*
 6. Click `Save`.
 
-
+## Validate emails
 {: .d-inline-block } 
 Activity 
-{: .label } 
-### Validate emails
+{: .label }
 
 1. Click `Add field`.
 2. Choose `Text box`.
@@ -37,20 +36,20 @@ Activity
 7. Click `Save`.
 8. Click `Return to list of instruments`.
 
+## Validate dates
 {: .d-inline-block } 
 Activity 
 {: .label } 
-### Validate dates
 
 2. Click `Add field`.
 3. Choose `Text box`.
 4. Type *Date of Birth* in the `Field` description and type *dob* in the `Variable Name`.
 5. In the `Validation` field, select *Date (D-M-Y)*. This will ensure only dates can be entered into the field.
 
+## Validate numbers
 {: .d-inline-block } 
 Activity 
 {: .label } 
-### Validate numbers
 
 1. Create two new text box fields:  for Height (cm) (Variable Name: **height_cm**) and Weight (Kg) (Variable Name: **weight_kg**) using the instructions above.
 2. For each one, set the `Validation` to *Integer*. This will ensure only numbers can be entered into the field.
