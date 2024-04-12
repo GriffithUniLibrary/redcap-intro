@@ -12,12 +12,12 @@ We will use the instrument to try out some basic question types by adding some d
 
 ## Text box
 
-In REDCap, the `text box` question type can be used in several ways: to capture short written responses and information like numbers and dates. Here, we will just capture our participant's name.
+In REDCap, the 'Text box' question type can be used in several ways: to capture short written responses and information like numbers and dates. Here, we will just capture our participant's name.
 
+### Add a basic text field
 {: .d-inline-block } 
 Activity 
 {: .label } 
-### Add a basic text field
 
 1. Click on `Demographic question` to open it
 2. Click `Add Field`
@@ -27,19 +27,19 @@ Activity
 6. In the `Required` field, select “Yes”.
 7. In the `Identifier?` Field, select “Yes”. (Identifiable information can be flagged to restrict it from export.)
 8. Click `Save`.
-9. Repeat the process to add the field Last Name (name_last)
+9. Repeat the process to add the field Last Name (*name_last*)
 
 ## Multiple choice
 
 Multiple choice fields are of two kinds:
 
-- `Radio buttons` and `drop down lists` only allow the participant to select a single option from a list. 
-- `Checkboxes` allow participants to select any number of items from a list.
+- 'Radio buttons' and 'Drop down lists' only allow the participant to select a single option from a list. 
+- 'Checkboxes' allow participants to select any number of items from a list.
 
+### Add a radio button question
 {: .d-inline-block } 
 Activity 
-{: .label } 
-### Add a radio button question
+{: .label }
 
 1. Click `Add field`
 2. Choose `Multiple choice - Radio buttons` from the drop-down list.
@@ -50,11 +50,11 @@ Activity
 > About raw values
 >
 > The ‘raw value’, which appears before the column, is the value that gets recorded in your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description.
-
+ 
+### Add a checkbox question
 {: .d-inline-block } 
 Activity 
-{: .label } 
-### Add a checkbox question
+{: .label }
 
 3. Click `Add field`.
 4. Choose *Checkboxes (Multiple Answers)* for the `Field Type`.
