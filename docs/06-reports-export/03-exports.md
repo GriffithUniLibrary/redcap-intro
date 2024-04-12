@@ -8,26 +8,15 @@ nav_order: 1
 # Exporting your data
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Export de-identified data
+{: .d-inline-block } 
+Activity 
+{: .label } 
 
-7. Click on `Data Exports, Reports, and Stats` on the left-hand navigation.
-8. Click `Export Data`. Most major statistical package formats are represented: CSV, SPSS, STATA and R.
-9. Note also the de-identification options, especially the option to Remove all tagged identifier fields.
-10. Click `Cancel` (don’t export the data).
-
-![](../../export-data.png)
-The REDCap data export options
-{: .fs-3 .fw-300 }
-The REDCap data export options
-
-If you need to see what changes have been made to the structure or data of your project, use the Logging tool on the Applications List
-{: .info }
+1. Click on `Data Exports, Reports, and Stats` on the left-hand navigation.
+2. Click `Export Data`. Most major statistical package formats are represented: CSV, SPSS, STATA and R.
+3. Note also the de-identification options, especially the option to Remove all tagged identifier fields.
+4. Click `Export Data`.
 
 ## About identifiers
 
