@@ -66,6 +66,7 @@ Activity
     - *Cardiovascular disease*
     - *Asthma*
     - *Anxiety or depression*
+    - *None of the above*
 
 8. In the `Required` field, click *Yes*.
 
