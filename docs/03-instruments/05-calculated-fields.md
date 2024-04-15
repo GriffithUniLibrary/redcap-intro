@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Calculated fields
+title: Calculated fields (advanced)
 parent: Instruments
 nav_order: 4
 ---
