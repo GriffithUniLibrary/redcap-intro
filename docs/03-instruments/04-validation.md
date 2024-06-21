@@ -32,9 +32,8 @@ Activity
 3. Type *Email* in the `Field` Label and type *email* in the `Variable Name`.
 4. In the `Validation` field, select *Email*. This will ensure only correctly formatted emails can be entered into the field.
 5. In the `Identifier` field, select *“Yes”*.
-6. In the `Field` note field, type *“Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”*
-7. Click `Save`.
-8. Click `Return to list of instruments`.
+6. Click `Save`.
+7. Click `Return to list of instruments`.
 
 ## Validate dates
 {: .d-inline-block } 
